@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(210, 74, 74);
+  height: 2000px;
+}
+
+.mobile-header {
+  display: flex;
+  height: 70px;
+  background-color: black;
+  justify-content: space-between;
+  
+  
+}
+
+p {
+  color: white;
+}
+
+#portfolio-name {
+  font-family: 'Roboto';
+  font-size: 19px;
+}
