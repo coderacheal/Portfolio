@@ -11,25 +11,24 @@ body {
   display: flex;
   flex-direction: column;
   flex-basis: 380px;
-  background-color: #1C1A19;
+  background-color: #1c1a19;
   height: 2000px;
 }
 
 .mobile-header {
   display: flex;
   height: 92px;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   justify-content: space-between;
   position: fixed;
   right: 570px;
-  top: 0px;
+  top: 0;
   left: 570px;
 }
 
 .display-header {
   margin-left: 15px;
   margin-bottom: 15px;
-  
 }
 
 .signal-div {
@@ -37,7 +36,6 @@ body {
   flex-direction: column;
   margin-top: 4px;
   padding: 15px;
-
 }
 
 .union-div {
@@ -54,21 +52,15 @@ body {
   font-weight: bold;
   width: 100px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Arial';
   font-size: 18px;
   line-height: 24px;
   display: flex;
   text-align: center;
-
 }
 
 p {
   color: white;
-}
-
-#portfolio-name {
-  font-family: 'Roboto', 'Arial';
-  font-size: 19px;
 }
 
 .headline-section {
@@ -80,20 +72,19 @@ p {
 }
 
 .name {
-  font-size: 56px;
-  color: #FF6B00;
-  font-family: 'Crete Round';
+  color: #ff6b00;
+  font-family: 'Crete Round', 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 10px;
-  letter-spacing: 0.37px
+  letter-spacing: 0.37px;
 }
 
 #job-title {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', 'Arial';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -105,12 +96,12 @@ p {
 #introduction {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #FFF;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -139,5 +130,4 @@ p {
   margin-left: 200px;
   height: 50px;
   size: 100 100;
-  
 }
