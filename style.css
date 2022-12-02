@@ -101,7 +101,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFF;
+  color: #fff;
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -126,7 +126,7 @@ p {
 #side_image {
   display: flex;
   width: 50px;
-  margin-right: 0px;
+  margin-right: 0;
   margin-left: 200px;
   height: 50px;
   size: 100 100;
