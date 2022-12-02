@@ -1,13 +1,14 @@
 body {
-  background-color: rgb(210, 74, 74);
+  background-color: black;
   height: 2000px;
 }
 
 .mobile-header {
   display: flex;
-  height: 70px;
-  background-color: black;
-  justify-content: space-between;  
+  height: 75px;
+  top: 0px;
+  background-color: rgb(74, 68, 68);
+  justify-content: space-between;
 }
 
 p {
@@ -15,6 +16,15 @@ p {
 }
 
 #portfolio-name {
-  font-family: 'Roboto', Arial;
+  font-family: 'Roboto', 'Arial';
   font-size: 19px;
+}
+
+.signal-div {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.signal-div-items {
+  flex: 1;
 }
