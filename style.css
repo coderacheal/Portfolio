@@ -7,9 +7,7 @@ body {
   display: flex;
   height: 70px;
   background-color: black;
-  justify-content: space-between;
-  
-  
+  justify-content: space-between;  
 }
 
 p {
@@ -17,6 +15,6 @@ p {
 }
 
 #portfolio-name {
-  font-family: 'Roboto';
+  font-family: 'Roboto', Arial;
   font-size: 19px;
 }
