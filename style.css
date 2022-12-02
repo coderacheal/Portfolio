@@ -52,7 +52,7 @@ body {
   font-weight: bold;
   width: 100px;
   height: 24px;
-  font-family: 'Roboto', 'Arial';
+  font-family: Roboto, Arial;
   font-size: 18px;
   line-height: 24px;
   display: flex;
@@ -73,7 +73,7 @@ p {
 
 .name {
   color: #ff6b00;
-  font-family: 'Crete Round', 'Arial';
+  font-family: Crete Round, Arial;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -84,7 +84,7 @@ p {
 #job-title {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto', 'Arial';
+  font-family: Roboto, Arial;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -96,7 +96,7 @@ p {
 #introduction {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', Arial;
+  font-family: Poppins, Arial;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
