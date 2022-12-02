@@ -1,14 +1,65 @@
 body {
   background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.mobile-view {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 380px;
+  background-color: #1C1A19;
   height: 2000px;
 }
 
 .mobile-header {
   display: flex;
-  height: 75px;
-  top: 0px;
-  background-color: rgb(74, 68, 68);
+  height: 92px;
+  background-color: #3C3A39;
   justify-content: space-between;
+  position: fixed;
+  right: 570px;
+  top: 0px;
+  left: 570px;
+}
+
+.display-header {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.signal-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+  padding: 15px;
+
+}
+
+.union-div {
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+#time {
+  margin-left: 20px;
+}
+
+#portfolio-name {
+  padding-bottom: 7px;
+  font-weight: bold;
+  width: 100px;
+  height: 24px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  text-align: center;
+
 }
 
 p {
@@ -20,11 +71,73 @@ p {
   font-size: 19px;
 }
 
-.signal-div {
-  flex: 1;
+.headline-section {
+  margin-left: 30px;
+}
+
+.name-div {
+  margin-top: 240px;
+}
+
+.name {
+  font-size: 56px;
+  color: #FF6B00;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 10px;
+  letter-spacing: 0.37px
+}
+
+#job-title {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+#introduction {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.job-title-div {
+  margin-top: 10px;
+}
+
+.social {
+  margin-top: 30px;
+  display: flex;
+  width: 250px;
   justify-content: space-between;
 }
 
-.signal-div-items {
-  flex: 1;
+.icon-interactions:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+#side_image {
+  display: flex;
+  width: 50px;
+  margin-right: 0px;
+  margin-left: 200px;
+  height: 50px;
+  size: 100 100;
+  
 }
