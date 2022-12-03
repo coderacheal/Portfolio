@@ -5,48 +5,36 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  background-color: black;
+  height: 2000px;
 }
 
 .mobile-view {
   display: grid;
-  grid-template-columns: 1fr;
-  flex-direction: column;
-  flex-basis: 380px;
+  grid-template-columns: 400px;
+  justify-content: center;
   background-color: #1c1a19;
-  height: 720px;
 }
 
-.mobile-header {
-  display: flex;
+.mobile-nav {
   height: 92px;
   background-color: #3c3a39;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   right: 560px;
   top: 0;
   left: 560px;
 }
 
-.display-header {
-  height: 40px;
-  margin-left: 25px;
-}
-
-.signal-div {
+.display-nav {
   display: flex;
-  flex-direction: column;
-  margin-top: 4px;
-  padding: 15px;
+  justify-content: space-between;
+  margin-top: 25px;
 }
 
-.union-div {
+#union-icon {
   margin-top: 15px;
   margin-right: 45px;
-}
-
-#time {
-  margin-left: 20px;
+  height: 15px;
 }
 
 #portfolio-name {
@@ -56,6 +44,7 @@ body {
   display: flex;
   text-align: justify;
   align-items: center;
+  padding-left: 25px;
 }
 
 p {
@@ -63,7 +52,7 @@ p {
 }
 
 .headline-section {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .name-div {
@@ -137,4 +126,12 @@ p {
   margin-left: 200px;
   height: 50px;
   size: 100 100;
+}
+
+.work {
+  background-color: white;
+}
+
+.about-myself {
+  background-color: wheat;
 }
