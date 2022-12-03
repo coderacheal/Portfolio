@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   background-color: black;
-  height: 2000px;
 }
 
 .mobile-view {
@@ -14,15 +13,15 @@ body {
   grid-template-columns: 400px;
   justify-content: center;
   background-color: #1c1a19;
+  position: relative
 }
 
 .mobile-nav {
   height: 92px;
   background-color: #3c3a39;
-  position: fixed;
-  right: 560px;
+  position: absolute;
+  width: 400px;
   top: 0;
-  left: 560px;
 }
 
 .display-nav {
@@ -53,6 +52,7 @@ p {
 
 .headline-section {
   margin-left: 20px;
+  height: 720px;
 }
 
 .name-div {
