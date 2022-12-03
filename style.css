@@ -317,10 +317,6 @@ p {
   margin-top: 70px;
 }
 
-#individual-skills {
-  margin-left: 70px;
-}
-
 #languages {
   display: flex;
   flex-direction: column;
@@ -347,7 +343,7 @@ p {
   margin-left: 20px;
 }
 
- #individual-frameworks {
+#individual-frameworks {
   font-family: Inter, monospace;
   list-style-type: none;
   font-size: 20px;
@@ -363,6 +359,7 @@ p {
   padding: 10px;
   display: block;
   margin-left: 20px;
+  margin-left: 70px;
 }
 
 .footnote {
@@ -396,6 +393,7 @@ p {
   width: 330px;
   padding: 10px;
 }
+
 input {
   display: block;
   width: 330px;
