@@ -1,6 +1,7 @@
 body {
   background-color: black;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -222,7 +223,7 @@ p {
   margin-top: 20px;
   flex: none;
   order: 1;
-  flex-grow: 0
+  flex-grow: 0;
 }
 
 .last-project {
@@ -237,8 +238,7 @@ p {
   width: 300px;
   position: absolute;
   top: 60px;
-  right: 0px;
-  top: 0px;
+  right: 0;
 } 
 
 #project-title {
