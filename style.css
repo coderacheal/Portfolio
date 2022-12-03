@@ -133,7 +133,7 @@ p {
 }
 
 #work-font {
-  color:black;
+  color: black;
   font-size: 16px;
   line-height: 24px;
   align-self: left;
@@ -176,18 +176,18 @@ p {
   margin-left: 0;
   width: 330px;
 }
+
 .button-list {
   display: flex;
   list-style-type: none;
-  padding-inline-start: 0px;
-  /* justify-content: flex-start; */
+  padding-inline-start: 0;
 }
 
-#multi-post-button{
+#multi-post-button {
   margin-right: 10px;
   padding: 15px;
   font-size: 15px;
-  font-family: 'Inter';
+  font-family: 'Inter'. monospace;
   border-color: rgb(196, 191, 191);
   border-radius: 1px;
   background-color: #fff;
@@ -201,7 +201,7 @@ p {
   border: 0;
   height: 50px;
   color: #fff;
-  font-family: Inter;
+  font-family: Inter, monospace;
   font-size: 17px;
   font-weight: bold;
 }
@@ -221,6 +221,7 @@ p {
 #project-backdrop {
   margin-top: 0;
 }
+
 .floating {
   width: 300px;
   position: absolute;
@@ -229,7 +230,7 @@ p {
 
 #project-title {
   color: white;
-  font-family:'Crete Round', monospace;
+  font-family: 'Crete Round', monospace;
   font-size: 32px;
   font-weight: lighter;
   line-height: 44px;
@@ -243,7 +244,6 @@ p {
   line-height: 24px;
 }
 
-
 .project-1-buttons {
   padding: 10px;
   margin-right: 7px;
@@ -256,6 +256,7 @@ p {
   align-self: flex-start;
   margin-left: 35px;
 }
+
 #see-project-button {
   margin-top: 0;
   padding: 10px;
@@ -266,29 +267,27 @@ p {
   color: white;
   font-family: Inter, monospace;
   font-size: 17px;
-  
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
-  background-color: #1C1A19;
-  /* height: 900px; */
+  background-color: #1c1a19;
   align-items: center;
 }
+
 #about-div {
   margin-top: 70px;
 }
 
 #about-me-title {
-  color: #FF6B00;
+  color: #ff6b00;
   font-family: 'Crete Round', monospace;
   font-size: 65px;
   font-weight: lighter;
-
 }
 
-#about-me-description-div{
+#about-me-description-div {
   width: 320px;
 }
 
@@ -298,14 +297,14 @@ p {
   line-height: 24px;
 }
 
-#get-resume-button{
+#get-resume-button {
   width: 180px;
   padding: 10px;
   background-color: #ff6b00;
   border: 0;
   height: 50px;
   color: #fff;
-  font-family: Inter;
+  font-family: Inter, monospace;
   font-size: 17px;
   font-weight: bold;
   margin-top: 25px;
@@ -326,7 +325,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font-family: Inter, monospace;
   font-size: 32px;
   height: 250px;
   color: #fff;
@@ -334,7 +332,6 @@ p {
   font-family: Inter, monospace;
   align-self: flex-start;
   margin-right: 50px;
-  
 }
 
 #mini-language-div {
@@ -374,7 +371,6 @@ p {
   display: flex;
   flex-direction: column;
   align-self: center;
- 
   margin-left: 35px;
 }
 
@@ -396,7 +392,7 @@ input{
   border: 0;
   height: 50px;
   color: #fff;
-  font-family: Inter;
+  font-family: Inter, monospace;
   font-size: 17px;
   font-weight: bold;
   margin-top: 40px;
@@ -405,7 +401,7 @@ input{
 
 #line1 {
   display: block;
-  margin-top:90px;
+  margin-top: 90px;
   height: 1px;
   background-color: #dfe1e6;
   width: 400px;
@@ -413,7 +409,7 @@ input{
 
 #line2 {
   display: block;
-  margin-top:10px;
+  margin-top: 10px;
   height: 3px;
   background-color: #0d151e;
   width: 80px;
@@ -421,7 +417,6 @@ input{
 
 #line3 {
   display: block;
-  margin-top:10px;
   height: 1px;
   background-color: white;
   width: 350px;
@@ -438,7 +433,3 @@ input{
 button {
   cursor: pointer;
 }
-
-
-
-
