@@ -187,7 +187,7 @@ p {
   margin-right: 10px;
   padding: 15px;
   font-size: 15px;
-  font-family: 'Inter'. monospace;
+  font-family: 'Inter', monospace;
   border-color: rgb(196, 191, 191);
   border-radius: 1px;
   background-color: #fff;
@@ -338,7 +338,25 @@ p {
   text-align: center;
 }
 
-#individual-languages, #individual-frameworks, #individual-skills {
+#individual-languages {
+  font-family: Inter, monospace;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  margin-left: 20px;
+}
+
+ #individual-frameworks {
+  font-family: Inter, monospace;
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  margin-left: 20px;
+}
+
+#individual-skills {
   font-family: Inter, monospace;
   list-style-type: none;
   font-size: 20px;
@@ -378,7 +396,7 @@ p {
   width: 330px;
   padding: 10px;
 }
-input{
+input {
   display: block;
   width: 330px;
   margin-top: 20px;
