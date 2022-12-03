@@ -13,7 +13,7 @@ body {
   grid-template-columns: 400px;
   justify-content: center;
   background-color: #1c1a19;
-  position: relative
+  position: relative;
 }
 
 .mobile-nav {
