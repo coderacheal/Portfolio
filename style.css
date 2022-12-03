@@ -1,6 +1,9 @@
 body {
   background-color: black;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .container {
   display: flex;
@@ -19,7 +22,7 @@ body {
 .mobile-nav {
   height: 92px;
   background-color: #3c3a39;
-  position: fixed;
+  position: sticky;
   width: 400px;
   top: 0;
 }
@@ -129,12 +132,16 @@ p {
 }
 
 .work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
 }
 
 #work-font {
   color: black;
   font-size: 16px;
+  font-family: Inter, monospace;
   line-height: 24px;
   align-self: left;
 }
@@ -211,7 +218,11 @@ p {
   flex-direction: column;
   align-items: center;
   position: relative;
+  top: 0;
   margin-top: 20px;
+  flex: none;
+  order: 1;
+  flex-grow: 0
 }
 
 .last-project {
@@ -226,7 +237,9 @@ p {
   width: 300px;
   position: absolute;
   top: 60px;
-}
+  right: 0px;
+  top: 0px;
+} 
 
 #project-title {
   color: white;
@@ -238,14 +251,14 @@ p {
 
 #project-description {
   color: white;
-  font-family: 'Inter', monospace;
+  font-family: Inter, monospace;
   font-size: 16px;
   font-weight: 100px;
   line-height: 24px;
 }
 
 .project-1-buttons {
-  padding: 10px;
+  padding: 15px;
   margin-right: 7px;
   background-color: gray;
   border: 0;
@@ -254,7 +267,6 @@ p {
 
 .see-project-div {
   align-self: flex-start;
-  margin-left: 35px;
 }
 
 #see-project-button {
@@ -274,6 +286,7 @@ p {
   flex-direction: column;
   background-color: #1c1a19;
   align-items: center;
+  margin-bottom: 90px;
 }
 
 #about-div {
@@ -310,6 +323,24 @@ p {
   margin-top: 25px;
 }
 
+.ul-image {
+  display: flex;
+  margin-left: 0;
+}
+
+#frameworks-image {
+  margin-right: 20px;
+  height: 20px;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+#framework-text {
+  font-size: 32px;
+  color: #fff;
+  font-family: Inter, monospace;
+}
+
 .languages-div {
   display: flex;
   flex-direction: column;
@@ -341,6 +372,7 @@ p {
   padding: 10px;
   display: block;
   margin-left: 20px;
+  color: white;
 }
 
 #individual-frameworks {
@@ -350,6 +382,12 @@ p {
   padding: 10px;
   display: block;
   margin-left: 20px;
+  color: white;
+}
+
+.skills-div {
+  align-self: flex-start;
+  margin-left: 0;
 }
 
 #individual-skills {
@@ -358,8 +396,8 @@ p {
   font-size: 20px;
   padding: 10px;
   display: block;
-  margin-left: 20px;
-  margin-left: 70px;
+  margin-left: 25px;
+  color: white;
 }
 
 .footnote {
