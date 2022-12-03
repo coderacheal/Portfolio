@@ -8,11 +8,12 @@ body {
 }
 
 .mobile-view {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   flex-direction: column;
   flex-basis: 380px;
   background-color: #1c1a19;
-  height: 2000px;
+  height: 720px;
 }
 
 .mobile-header {
@@ -22,9 +23,9 @@ body {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  right: 550px;
+  right: 560px;
   top: 0;
-  left: 550px;
+  left: 560px;
 }
 
 .display-header {
