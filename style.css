@@ -1,0 +1,137 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.mobile-view {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+  background-color: #1c1a19;
+  position: relative;
+}
+
+.mobile-nav {
+  height: 92px;
+  background-color: #3c3a39;
+  position: absolute;
+  width: 400px;
+  top: 0;
+}
+
+.display-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+#union-icon {
+  margin-top: 15px;
+  margin-right: 45px;
+  height: 15px;
+}
+
+#portfolio-name {
+  font-weight: bold;
+  font-family: Roboto, Arial, monospace;
+  font-size: 18px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  padding-left: 25px;
+}
+
+p {
+  color: white;
+}
+
+.headline-section {
+  margin-left: 20px;
+  height: 720px;
+}
+
+.name-div {
+  margin-top: 240px;
+}
+
+.name {
+  color: #ff6b00;
+  font-family: Crete Round, Arial, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 10px;
+  letter-spacing: 0.37px;
+}
+
+#job-title {
+  width: 327px;
+  height: 27px;
+  font-family: Roboto, Arial, monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+#introduction {
+  width: 327px;
+  height: 123px;
+  font-family: Poppins, Arial, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.job-title-div {
+  margin-top: 10px;
+}
+
+.social {
+  margin-top: 30px;
+  display: flex;
+  width: 250px;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.icon-interactions {
+  display: flex;
+  margin-left: 10px;
+}
+
+.icon-interactions:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+#side_image {
+  display: flex;
+  width: 50px;
+  margin-right: 0;
+  margin-left: 200px;
+  height: 50px;
+  size: 100 100;
+}
+
+.work {
+  background-color: white;
+}
+
+.about-myself {
+  background-color: wheat;
+}
