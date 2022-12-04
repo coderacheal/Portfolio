@@ -4,6 +4,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-margin-top: 70px;
 }
 
 .container {
@@ -23,9 +24,10 @@ html {
 .mobile-nav {
   height: 92px;
   background-color: #3c3a39;
-  position: sticky;
+  position: fixed;
   width: 400px;
   top: 0;
+  z-index: 1;
 }
 
 .display-nav {
@@ -205,6 +207,7 @@ p {
   margin-left: 35px;
   width: 120px;
   padding: 10px;
+  position: relative;
   background-color: #ff6b00;
   border: 0;
   height: 50px;
@@ -237,7 +240,6 @@ p {
 .floating {
   width: 300px;
   position: absolute;
-  top: 60px;
   right: 0;
 }
 
