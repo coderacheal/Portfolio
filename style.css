@@ -2,11 +2,6 @@ body {
   background-color: black;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-margin-top: 70px;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -193,7 +188,7 @@ p {
   padding-inline-start: 0;
 }
 
-#multi-post-button {
+.multi-post-button {
   margin-right: 10px;
   padding: 15px;
   font-size: 15px;
@@ -203,7 +198,7 @@ p {
   background-color: #fff;
 }
 
-#first-see-project-button {
+.first-see-project-button {
   margin-left: 35px;
   width: 120px;
   padding: 10px;
@@ -224,17 +219,19 @@ p {
   position: relative;
   top: 0;
   margin-top: 20px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+}
+
+.project-1-buttons-ul {
+  display: flex;
+  padding-left: 0;
+}
+
+.project-1-buttons-li {
+  margin-right: 5px;
 }
 
 .last-project {
   margin-bottom: 120px;
-}
-
-#project-backdrop {
-  margin-top: 0;
 }
 
 .floating {
@@ -243,15 +240,16 @@ p {
   right: 0;
 }
 
-#project-title {
+.project-title {
   color: white;
   font-family: 'Crete Round', monospace;
   font-size: 32px;
   font-weight: lighter;
   line-height: 44px;
+  margin-top: 80px;
 }
 
-#project-description {
+.project-description {
   color: white;
   font-family: Inter, monospace;
   font-size: 16px;
@@ -267,11 +265,20 @@ p {
   color: white;
 }
 
+.project-1-buttons-li{
+  display: flex;
+}
+
+.project-1-buttons-li {
+  list-style-type: none;
+  display: flex;
+}
+
 .see-project-div {
   align-self: flex-start;
 }
 
-#see-project-button {
+.see-project-button {
   margin-top: 0;
   padding: 10px;
   width: 327px;
@@ -363,28 +370,40 @@ p {
   margin-right: 50px;
 }
 
-#mini-language-div {
+.individual-languages-ul {
+  padding-left: 0;
+}
+
+.individual-languages {
+  font-family: Inter, monospace;
+  list-style-type: none;
+  font-size: 24px;
+  padding: 10px;
+  display: block;
+  margin-left: 20px;
+  color: white;
   text-align: center;
+  margin-left: 0;
+  padding-left: 0;
+  width: 140px;
 }
 
-#individual-languages {
-  font-family: Inter, monospace;
-  list-style-type: none;
-  font-size: 20px;
-  padding: 10px;
-  display: block;
+.individual-frameworks-ul {
+  padding-left: 0;
   margin-left: 20px;
-  color: white;
 }
 
-#individual-frameworks {
+.individual-frameworks {
   font-family: Inter, monospace;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 24px;
   padding: 10px;
+  padding-left: 0;
+  padding-right: 0;
   display: block;
-  margin-left: 20px;
   color: white;
+  text-align: center;
+  width: 160px;
 }
 
 .skills-div {
@@ -392,14 +411,15 @@ p {
   margin-left: 0;
 }
 
-#individual-skills {
+.individual-skills {
   font-family: Inter, monospace;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 24px;
   padding: 10px;
   display: block;
-  margin-left: 25px;
+  margin-left: 0;
   color: white;
+  text-align: center;
 }
 
 .footnote {
@@ -410,7 +430,7 @@ p {
   height: 900px;
 }
 
-#brief-note-div {
+.brief-note-div {
   margin-top: 90px;
   align-self: center;
   width: 330px;
@@ -455,7 +475,7 @@ input {
   margin-left: 80px;
 }
 
-#line1 {
+.line1 {
   display: block;
   margin-top: 90px;
   height: 1px;
@@ -463,7 +483,7 @@ input {
   width: 400px;
 }
 
-#line2 {
+.line2 {
   display: block;
   margin-top: 10px;
   height: 3px;
