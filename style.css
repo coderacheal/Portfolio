@@ -265,10 +265,6 @@ p {
   color: white;
 }
 
-.project-1-buttons-li{
-  display: flex;
-}
-
 .project-1-buttons-li {
   list-style-type: none;
   display: flex;
@@ -380,7 +376,6 @@ p {
   font-size: 24px;
   padding: 10px;
   display: block;
-  margin-left: 20px;
   color: white;
   text-align: center;
   margin-left: 0;
@@ -436,7 +431,7 @@ p {
   width: 330px;
 }
 
-#brief-note {
+.brief-note {
   font-family: Inter, monospace;
   font-size: 32px;
   line-height: 44px;
