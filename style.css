@@ -224,9 +224,6 @@ p {
 .project-1-buttons-ul {
   display: flex;
   padding-left: 0;
-}
-
-.project-1-buttons-li {
   margin-right: 5px;
 }
 
