@@ -262,7 +262,7 @@ p {
   color: white;
 }
 
-.project-1-buttons-li {
+.project-1-buttons-ul {
   list-style-type: none;
   display: flex;
 }
@@ -291,28 +291,30 @@ p {
   margin-bottom: 90px;
 }
 
-#about-div {
+.about-div {
   margin-top: 70px;
 }
 
-#about-me-title {
+.about-me-title {
   color: #ff6b00;
   font-family: 'Crete Round', monospace;
   font-size: 65px;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
-#about-me-description-div {
+.about-me-description-div {
   width: 320px;
+  display: block;
 }
 
-#about-me-description {
+.about-me-description {
   font-family: 'Inter', monospace;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
+
 }
 
-#get-resume-button {
+.get-resume-button {
   width: 180px;
   padding: 10px;
   background-color: #ff6b00;
@@ -325,93 +327,53 @@ p {
   margin-top: 25px;
 }
 
-.ul-image {
-  display: flex;
-  margin-left: 0;
+.side-image{
+  margin: 0;
+  margin-left: 200px;
+  float: left;
 }
 
-#frameworks-image {
+.language-framework-skills {
+  list-style: none;
+  font-family: Inter, monospace;
+  color: white;
+  padding-left: 0;
+}
+
+.individual-language-framework-skills-li {
+  font-family: Arial, monospace;
+  font-size: 32px;
+  font-family: Inter, monospace;
+  margin-bottom: 50px;
+  padding-bottom: 8px;
+}
+
+.children-of-language-framework-skills-ul {
+  font-size: 22px;
+  list-style-type: none;
+  font-family: Inter, monospace;
+  text-align: center;
+  width: 170px;
+  line-height: 24px;
+  padding-left: 0;
+  margin-top: 40px;
+  
+}
+
+.children-of-language-framework-skills-li {
+  padding: 20px;
+}
+
+.children-of-framework-li {
+  width: 155px;
+  padding: 20px;
+}
+
+.frameworks-image {
   margin-right: 20px;
   height: 20px;
-  vertical-align: top;
-  margin-top: 40px;
-}
-
-#framework-text {
-  font-size: 32px;
-  color: #fff;
-  font-family: Inter, monospace;
-}
-
-.languages-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
-}
-
-#languages {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size: 32px;
-  height: 250px;
-  color: #fff;
-  list-style-type: none;
-  font-family: Inter, monospace;
-  align-self: flex-start;
-  margin-right: 50px;
-}
-
-.individual-languages-ul {
-  padding-left: 0;
-}
-
-.individual-languages {
-  font-family: Inter, monospace;
-  list-style-type: none;
-  font-size: 24px;
-  padding: 10px;
-  display: block;
-  color: white;
-  text-align: center;
-  margin-left: 0;
-  padding-left: 0;
-  width: 140px;
-}
-
-.individual-frameworks-ul {
-  padding-left: 0;
-  margin-left: 20px;
-}
-
-.individual-frameworks {
-  font-family: Inter, monospace;
-  list-style-type: none;
-  font-size: 24px;
-  padding: 10px;
-  padding-left: 0;
-  padding-right: 0;
-  display: block;
-  color: white;
-  text-align: center;
-  width: 160px;
-}
-
-.skills-div {
-  align-self: flex-start;
-  margin-left: 0;
-}
-
-.individual-skills {
-  font-family: Inter, monospace;
-  list-style-type: none;
-  font-size: 24px;
-  padding: 10px;
-  display: block;
-  margin-left: 0;
-  color: white;
-  text-align: center;
+  vertical-align: center;
+  margin-top: 20px;
 }
 
 .footnote {
@@ -483,12 +445,12 @@ input {
   width: 80px;
 }
 
-#line3 {
+.line3 {
   display: block;
   height: 1px;
   background-color: white;
   width: 350px;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 .footnote-socials {
