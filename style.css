@@ -225,6 +225,7 @@ p {
   display: flex;
   padding-left: 0;
   margin-right: 5px;
+  list-style-type: none;
 }
 
 .last-project {
@@ -260,11 +261,6 @@ p {
   background-color: gray;
   border: 0;
   color: white;
-}
-
-.project-1-buttons-ul {
-  list-style-type: none;
-  display: flex;
 }
 
 .see-project-div {
@@ -311,7 +307,6 @@ p {
   font-family: 'Inter', monospace;
   font-size: 18px;
   line-height: 24px;
-
 }
 
 .get-resume-button {
@@ -327,7 +322,7 @@ p {
   margin-top: 25px;
 }
 
-.side-image{
+.side-image {
   margin: 0;
   margin-left: 200px;
   float: left;
@@ -341,7 +336,6 @@ p {
 }
 
 .individual-language-framework-skills-li {
-  font-family: Arial, monospace;
   font-size: 32px;
   font-family: Inter, monospace;
   margin-bottom: 50px;
@@ -357,7 +351,6 @@ p {
   line-height: 24px;
   padding-left: 0;
   margin-top: 40px;
-  
 }
 
 .children-of-language-framework-skills-li {
