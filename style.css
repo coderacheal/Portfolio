@@ -299,8 +299,17 @@ p {
 }
 
 .about-me-description-div {
-  width: 320px;
   display: block;
+  height: 500px;
+  width: 400px;
+  background-image: url(images/about-me-side-image.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.first-about-me-description-div {
+  width: 320px;
+  margin-left: 35px;
 }
 
 .about-me-description {
