@@ -1,0 +1,44 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+.input-individuals {
+    padding: 10px;
+    width: 295px;
+    height: 18px;
+    font-family: Inter, monospace;
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid;
+    border-bottom-color: #DBD8D7;
+}
+
+#textarea-box {
+    background-color: #fbf8f7;
+    width: 295px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+}
+
+#get-in-touch-button {
+    width: 160px;
+    padding: 10px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+  
+#get-in-touch-button:hover {
+    background-color: #f6944e;
+}
+
