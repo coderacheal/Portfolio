@@ -222,7 +222,8 @@ p {
 }
 
 .project-1-buttons-ul {
-  display: flex;
+  /* display: flex; */
+  /* float: inline-start; */
   padding-left: 0;
   margin-right: 5px;
   list-style-type: none;
@@ -257,6 +258,7 @@ p {
 
 .project-1-buttons {
   padding: 15px;
+  float: left;
   margin-right: 7px;
   background-color: gray;
   border: 0;
