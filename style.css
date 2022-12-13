@@ -411,20 +411,6 @@ input {
   padding: 15px;
 }
 
-#get-in-touch-button {
-  width: 160px;
-  padding: 10px;
-  background-color: #ff6b00;
-  border: 0;
-  height: 50px;
-  color: #fff;
-  font-family: Inter, monospace;
-  font-size: 17px;
-  font-weight: bold;
-  margin-top: 40px;
-  margin-left: 80px;
-}
-
 .line1 {
   display: block;
   margin-top: 90px;
@@ -475,7 +461,7 @@ button {
   margin: 10px;
   border: 0;
   border-bottom: 1px solid;
-  border-bottom-color: #DBD8D7;
+  border-bottom-color: #dbd8d7;
 }
 
 #textarea-box {
@@ -503,4 +489,3 @@ button {
 #get-in-touch-button:hover {
   background-color: #f6944e;
 }
-
