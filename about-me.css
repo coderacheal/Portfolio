@@ -1,0 +1,92 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1a19;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.about-div {
+  margin-top: 70px;
+}
+
+.about-me-title {
+  color: #ff6b00;
+  font-family: 'Crete Round', monospace;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.about-me-description-div {
+  display: block;
+  height: 500px;
+  width: 400px;
+  background-image: url(images/about-me-side-image.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.first-about-me-description-div {
+  width: 320px;
+  margin-left: 35px;
+}
+
+.about-me-description {
+  font-family: 'Inter', monospace;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.get-resume-button {
+  width: 180px;
+  padding: 10px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.language-framework-skills {
+  list-style: none;
+  font-family: Inter, monospace;
+  color: white;
+  padding-left: 0;
+}
+
+.individual-language-framework-skills-li {
+  font-size: 32px;
+  font-family: Inter, monospace;
+  margin-bottom: 50px;
+  padding-bottom: 8px;
+}
+
+.children-of-language-framework-skills-ul {
+  font-size: 22px;
+  list-style-type: none;
+  font-family: Inter, monospace;
+  text-align: center;
+  width: 170px;
+  line-height: 24px;
+  padding-left: 0;
+  margin-top: 40px;
+}
+
+.children-of-language-framework-skills-li {
+  padding: 20px;
+}
+
+.children-of-framework-li {
+  width: 155px;
+  padding: 20px;
+}
+
+.frameworks-image {
+  margin-right: 20px;
+  height: 20px;
+  vertical-align: center;
+  margin-top: 20px;
+}

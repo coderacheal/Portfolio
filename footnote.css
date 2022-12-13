@@ -1,0 +1,119 @@
+.footnote {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  height: 900px;
+}
+
+.brief-note-div {
+  margin-top: 90px;
+  align-self: center;
+  width: 330px;
+}
+
+.brief-note {
+  font-family: Inter, monospace;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+#get-intouch {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 35px;
+}
+
+#get-in-touch-individuals {
+  width: 330px;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  width: 330px;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.line1 {
+  display: block;
+  margin-top: 90px;
+  height: 1px;
+  background-color: #dfe1e6;
+  width: 400px;
+}
+
+.line2 {
+  display: block;
+  margin-top: 10px;
+  height: 3px;
+  background-color: #0d151e;
+  width: 80px;
+}
+
+.line3 {
+  display: block;
+  height: 1px;
+  background-color: white;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.footnote-socials {
+  display: flex;
+  width: 200px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 50px;
+}
+
+.input-individuals {
+  padding: 10px;
+  width: 295px;
+  height: 18px;
+  font-family: Inter, monospace;
+  margin: 10px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-bottom-color: #dbd8d7;
+}
+
+#textarea-box {
+  background-color: #fbf8f7;
+  width: 295px;
+  padding: 10px;
+  margin: 10px;
+  border: 0;
+}
+
+#get-in-touch-button {
+  width: 160px;
+  padding: 10px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+#get-in-touch-button:hover {
+  background-color: #f6944e;
+}

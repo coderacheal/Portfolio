@@ -1,0 +1,149 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#work-font {
+  color: black;
+  font-size: 16px;
+  font-family: Inter, monospace;
+  line-height: 24px;
+  align-self: left;
+}
+
+.recent-work {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+  margin-top: 90px;
+}
+
+#work-intro {
+  font-family: 'Crete Round', monospace;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#yoga-image {
+  margin-top: 30px;
+}
+
+.multi-post-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  margin-left: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#multi-post-title {
+  font-size: 32px;
+}
+
+.button-div {
+  display: flex;
+  margin-left: 0;
+  width: 330px;
+}
+
+.button-list {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.multi-post-button {
+  margin-right: 10px;
+  padding: 15px;
+  font-size: 15px;
+  font-family: 'Inter', monospace;
+  border-color: rgb(196, 191, 191);
+  border-radius: 1px;
+  background-color: #fff;
+}
+
+.first-see-project-button {
+  margin-left: 35px;
+  width: 120px;
+  padding: 10px;
+  position: relative;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+  margin-top: 20px;
+}
+
+.project-1-buttons-ul {
+  display: flex;
+  padding-left: 0;
+  margin-right: 5px;
+  list-style-type: none;
+}
+
+.last-project {
+  margin-bottom: 120px;
+}
+
+.floating {
+  width: 300px;
+  position: absolute;
+  right: 0;
+}
+
+.project-title {
+  color: white;
+  font-family: 'Crete Round', monospace;
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 44px;
+  margin-top: 80px;
+}
+
+.project-description {
+  color: white;
+  font-family: Inter, monospace;
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 24px;
+}
+
+.project-1-buttons {
+  padding: 15px;
+  margin-right: 7px;
+  background-color: gray;
+  border: 0;
+  color: white;
+}
+
+.see-project-div {
+  align-self: flex-start;
+}
+
+.see-project-button {
+  margin-top: 0;
+  padding: 10px;
+  width: 327px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: white;
+  font-family: Inter, monospace;
+  font-size: 17px;
+}
