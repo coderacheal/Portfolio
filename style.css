@@ -331,12 +331,6 @@ p {
   margin-top: 25px;
 }
 
-/* .side-image {
-  margin: 0;
-  margin-left: 200px;
-  float: left;
-} */
-
 .language-framework-skills {
   list-style: none;
   font-family: Inter, monospace;
@@ -470,6 +464,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 400px;
+  margin-left: 50px;
 }
 
 .input-individuals {
