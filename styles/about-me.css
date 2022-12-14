@@ -3,7 +3,6 @@
   flex-direction: column;
   background-color: #1c1a19;
   align-items: center;
-  margin-bottom: 90px;
 }
 
 .about-div {
@@ -60,7 +59,7 @@
 .individual-language-framework-skills-li {
   font-size: 32px;
   font-family: Inter, monospace;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   padding-bottom: 8px;
 }
 

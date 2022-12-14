@@ -3,11 +3,11 @@
   flex-direction: column;
   background-color: white;
   align-items: center;
+  margin-top: 0;
   height: 900px;
 }
 
 .brief-note-div {
-  margin-top: 90px;
   align-self: center;
   width: 330px;
 }
