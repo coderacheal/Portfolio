@@ -105,6 +105,9 @@ p {
 }
 
 @media (min-width: 500px) {
+  body {
+    background-color: black;
+  }
   .social {
     list-style-type: none;
     width: 150px;
