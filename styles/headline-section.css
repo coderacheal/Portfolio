@@ -17,7 +17,7 @@
   margin-top: 15px;
   margin-right: 45px;
   height: 15px;
-  }
+}
   
 #portfolio-name {
   font-weight: bold;
@@ -117,7 +117,7 @@ p {
   opacity: 0.7;
 }
 
-/* Desktop Session  */
+/* Desktop Section  */
 .nav-ul {
   list-style-type: none;
   display: none;
@@ -141,13 +141,19 @@ p {
   }
 
   #portfolio-name {
-    margin-left: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
   }
 
   .nav-ul {
     display: flex;
     padding-right: 50px;
     padding: 0;
+    margin-right: 80px;
   }
 
   .nav-items {
@@ -199,6 +205,223 @@ p {
     margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 70px;
+    height: 44px;
+  }
+  
+  .developer-intro {
+    margin-top: 100px;
+    width: 550px;
+  }
+  
+  .developer-name {
+    font-family: 'Crete Round', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    color: #f55800;
+    line-height: 81px;
+    margin-bottom: 20px;
+  }
+  
+  .developer-job {
+    font-family: Inter, monospace;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .developer-description {
+    font-family: Inter, monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-nav {
+    width: 100%;
+  }
+
+  #union-icon {
+    display: none;
+  }
+
+  #portfolio-name {
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-ul {
+    display: flex;
+    padding-right: 50px;
+    padding: 0;
+    margin-right: 80px;
+  }
+
+  .nav-items {
+    margin-left: 25px;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .headline-section {
+    display: flex;
+    margin-top: 72px;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+  }
+
+  .mobile-headline-intro-div {
+    display: none;
+  }
+
+  .desktop-headline-intro-div {
+    display: flex;
+  }
+
+  .intro-page {
+    margin-top: 72px;
+    display: flex;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #1c1a19;
+    color: white;
+  }
+  
+  .social-ul {
+    list-style-type: none;
+    width: 150px;
+    align-content: center;
+    margin-top: 250px;
+    padding-left: 0;
+  }
+  
+  .social-li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+    height: 44px;
+  }
+  
+  .developer-intro {
+    margin-top: 100px;
+    width: 550px;
+  }
+  
+  .developer-name {
+    font-family: 'Crete Round', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    color: #f55800;
+    line-height: 81px;
+    margin-bottom: 20px;
+  }
+  
+  .developer-job {
+    font-family: Inter, monospace;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .developer-description {
+    font-family: Inter, monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mobile-nav {
+    width: 100%;
+  }
+
+  #union-icon {
+    display: none;
+  }
+
+  #portfolio-name {
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .nav-ul {
+    display: flex;
+    padding-right: 50px;
+    padding: 0;
+    margin-right: 80px;
+  }
+
+  .nav-items {
+    margin-left: 25px;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .headline-section {
+    display: flex;
+    margin-top: 72px;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+  }
+
+  .mobile-headline-intro-div {
+    display: none;
+  }
+
+  .desktop-headline-intro-div {
+    display: flex;
+  }
+
+  .intro-page {
+    margin-top: 72px;
+    display: flex;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #1c1a19;
+    color: white;
+  }
+  
+  .social-ul {
+    list-style-type: none;
+    width: 150px;
+    align-content: center;
+    margin-top: 250px;
+    padding-left: 0;
+  }
+  
+  .social-li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+    height: 44px;
   }
   
   .developer-intro {

@@ -1,12 +1,20 @@
 body {
-    width: 400px;
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+  width: 400px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+  
+button:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
-    body {
-        width: 100%;
-    }
+  body {
+    width: 100%;
+  }
 }
