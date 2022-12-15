@@ -188,6 +188,451 @@
   .work {
     display: flex;
     flex-direction: column;
+    width: 768px;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+    width: 768px;
+    /* flex-direction: colu; */
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 350px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 35px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
+    display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  #work-font {
+    font-size: 14px;
+    width: 200px;
+    margin: 0;
+    line-height: 15px;
+    color: #091e42;
+  }
+
+  .recent-work {
+    display: flex;
+    align-items: left;
+    margin-top: 90px;
+    height: 10px;
+  }
+  
+  #work-intro {
+    font-size: 25px;
+    margin-left: 85px;
+  }
+
+  .multi-post-major-div {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 786;
+    margin-left: 20px;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+    width: 450px;
+    height: 300px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 768px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  #multi-post-title {
+    margin-top: 30px;
+    font-family: 'Crete Round', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: #091e42;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 35px;
+    margin-top: 0;
+  }
+
+  .multi-post-button {
+    padding: 5px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 235px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-left: 12px;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 100px;
+    padding: 5px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 30px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+    height: 200px;
+    margin-left: 15px;
+    width: 250px;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+  
+  .project-image {
+    margin-left: 0;
+    width: 235px;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 226px;
+    width: 235px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+    height: 100px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+  .individual-project-title-website {
+    margin-top: 40px;
+  }
+  
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-top: 0;
+    width: 180px;
+  }
+
+  .project-1-buttons-ul {
+    height: 30px;
+    margin-top: 0;
+    width: 200px;
+  }
+
+  .project-1-buttons {
+    padding: 5px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 750px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 60px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
+    display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  .work-font {
+    font-size: 20px;
+  }
+
+  .recent-work {
+    display: flex;
+    /* margin-top: 90px; */
+    align-items: left;
+    margin-top: 90px;
+    height: 10px;
+  }
+
+  .multi-post-major-div {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+    width: 684px;
+    height: 448px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1024px
+    /* margin-right: 20px; */
+  }
+
+  #multi-post-title {
+    margin-top: 20px;
+    font-family: 'Crete Round', monospace;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 55px;
+  }
+
+  .multi-post-button {
+    padding: 10px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 375px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-left: 5px;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+  
+  .project-image {
+    margin: 15px;
+    margin-left: 0;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 400px;
+    width: 375px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 290px;
+  }
+  .individual-project-title-website {
+    margin-top: 88px;
+  }
+  
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: 400px;
+    width: 350px;
+    margin-top: 0;
+    width: 290px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
   }
 
   .recent-work-div {
@@ -252,6 +697,7 @@
   .desktop-project-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 1440px
     /* margin-right: 20px; */
   }
 

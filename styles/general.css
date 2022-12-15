@@ -15,6 +15,16 @@ button:hover {
 
 @media (min-width: 768px) {
   body {
-    width: 100%;
+    width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    width: 1440px;
   }
 }
