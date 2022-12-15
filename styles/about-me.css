@@ -1,7 +1,7 @@
 .about-me {
   display: flex;
   flex-direction: column;
-  background-color: #1c1a19;
+  background-color: #262626;
   align-items: center;
 }
 
@@ -20,9 +20,6 @@
   display: block;
   height: 500px;
   width: 400px;
-  background-image: url(images/about-me-side-image.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
 }
 
 .first-about-me-description-div {
@@ -89,7 +86,7 @@
   margin-top: 20px;
 }
 
-.line3 {
+.line-0 {
   display: flex;
   height: 1px;
   background-color: white;
@@ -105,11 +102,52 @@
     justify-content: space-around;
     width: 100%;
     padding-bottom: 100px;
+    margin-top: 70px;
   }
 
-  .line3 {
+  .line-0 {
+    width: 1150px;
+
+  }
+
+  .children-of-language-framework-skills-ul {
+    font-size: 22px;
+    text-align: left;
+  }
+  .about-me-desktop-div {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    background-image: url(/images/about-me-image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height:450px;
+    margin-bottom: 120px;
   }
 
-  .
+  .about-me-title {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    /* height: 120px; */
+  }
+
+  .about-me-description {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 32px;
+    /* list-style: 20px; */
+  }
+
+  .about-me-description-div {
+    margin-left: 0;
+  }
+
+  .first-about-me-description-div {
+    margin-left: 150px;
+    width: 560px;
+  }
+
+  .get-resume-button {
+    margin-top: 20px;
+  }
 }
