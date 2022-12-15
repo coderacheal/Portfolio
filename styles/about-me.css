@@ -97,12 +97,149 @@
 @media (min-width: 768px) {
   .language-framework-skills {
     display: flex;
-    flex-grow: 1;
     margin-left: 50px;
     justify-content: space-around;
+    padding-bottom: 70px;
+    margin-top: 70px;
+    width: 768px;
+  }
+
+  .individual-language-framework-skills-li {
+    font-size: 25px;
+  }
+
+  .line-0 {
+    width: 650px;
+
+  }
+
+  .children-of-language-framework-skills-ul {
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+  }
+
+  .children-of-language-framework-skills-li {
+    padding: 10px;
+  }
+
+  .about-me-desktop-div {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    background-image: url(/images/about-me-image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+    height:450px;
+    margin-bottom: 60px;
+  }
+
+  .about-me-title {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .about-me-description {
+    font-size: 17px;
+    margin-top: 0;
+    line-height: 28px;
+    width: 440px;
+  }
+
+  .about-me-description-div {
+    margin-left: 0;
+  }
+
+  .first-about-me-description-div {
+    margin-left: 50px;
+    width: 560px;
+  }
+
+  .get-resume-button {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .language-framework-skills {
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
     padding-bottom: 100px;
     margin-top: 70px;
+    width: 1024px;
+  }
+
+  .individual-language-framework-skills-li {
+    font-size: 35px;
+  }
+
+  .line-0 {
+    width: 800px;
+
+  }
+
+  .children-of-language-framework-skills-ul {
+    font-size: 20px;
+    text-align: left;
+    padding: 0;
+  }
+
+  .children-of-language-framework-skills-li {
+    padding: 20px;
+  }
+
+  .about-me-desktop-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(/images/about-me-image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px;
+    height:450px;
+    margin-bottom: 50px;
+  }
+
+  .about-me-title {
+    margin-left: 95px;
+    margin-bottom: 20px;
+  }
+
+  .about-me-description {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 32px;
+  }
+
+  .about-me-description-div {
+    margin-left: 0;
+  }
+
+  .first-about-me-description-div {
+    margin-left: 95px;
+    width: 560px;
+  }
+
+  .get-resume-button {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .language-framework-skills {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin-top: 70px;
+    width: 1124px;
+  }
+
+  .individual-language-framework-skills-li {
+    font-size: 35px;
+    font-weight: bold;
   }
 
   .line-0 {
@@ -111,9 +248,15 @@
   }
 
   .children-of-language-framework-skills-ul {
-    font-size: 22px;
+    font-size: 24px;
     text-align: left;
+    padding: 0;
   }
+
+  .children-of-language-framework-skills-li {
+    padding: 20px;
+  }
+
   .about-me-desktop-div {
     display: flex;
     flex-direction: column;
@@ -121,6 +264,7 @@
     background-image: url(/images/about-me-image.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 600px;
     height:450px;
     margin-bottom: 120px;
   }

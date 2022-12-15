@@ -250,7 +250,7 @@ button {
     width: 400;
     margin-left: 50px;
     margin-top: 90px;
-    margin-right: 200px;
+    margin-right: 150px;
   }
 
   .input-individuals {
@@ -276,6 +276,7 @@ button {
 @media (min-width: 1440px) {
   .footnote {
     height: 580px;
+    width: 1440px;
   }
 
   .brief-note-and-form-div {
@@ -299,6 +300,8 @@ button {
   .brief-note-desktop {
     display: flex;
     width: 400px;
+    line-height: 45px;
+    margin-left: 50px;
   }
 
   .footnote-socials {
@@ -311,7 +314,8 @@ button {
 
   .form-container {
     width: 100%;
-    margin-left: 150px;
+    margin-left: 250px;
+    margin-right: 0;
   }
 
   .input-individuals {
@@ -323,10 +327,12 @@ button {
     width: 600px;
     height: 18px;
     font-family: Inter, monospace;
+    font-size: 15px;
   }
   
   #textarea-box {
     width: 600px;
+    font-size: 15px;
   }
 
   #get-in-touch-button {
