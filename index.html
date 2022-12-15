@@ -69,26 +69,29 @@
 
         <!-- project-work-section -->
         <section class="work">
-            <div>
+            <div class="recent-work-div">
                 <div class="recent-work">
                     <h2 id="work-intro">My Recent Work</h2>
-                    <a id="yoga-image" href=""><img src="images/Img Placeholder-1.png" alt="yoga girl"></a>
+                    <a id="yoga-image-a" href=""><img id="yoga-image" src="images/Img Placeholder-1.png" alt="yoga girl"></a>
                 </div>
-                <div class="multi-post-div">
-                    <h2 id="multi-post-title" >Multi-Post Stories</h2>
-                    <div id="work-description">
-                        <p id="work-font">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <a id="yoga-image-a" href=""><img id="desktop-yoga-image" src="images/yoga-girl.png" alt="yoga girl"></a>
+                <div class="multi-post-major-div">
+                    <div class="multi-post-div">
+                        <h2 id="multi-post-title" >Multi-Post Stories</h2>
+                        <div id="work-description">
+                            <p id="work-font">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                        </div>
+                        <div class="button-div">
+                            <ul class="button-list">
+                                <li><a href="#"><button class="multi-post-button">css</button></a></li>
+                                <li><a href="#"><button class="multi-post-button">html</button></a></li>
+                                <li><a href="#"><button class="multi-post-button">bootstrap</button></a></li>
+                                <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="button-div">
-                        <ul class="button-list">
-                            <li><a href="#"><button class="multi-post-button">css</button></a></li>
-                            <li><a href="#"><button class="multi-post-button">html</button></a></li>
-                            <li><a href="#"><button class="multi-post-button">bootstrap</button></a></li>
-                            <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
-                        </ul>
-                    </div>
+                    <a href="#"><button class="first-see-project-button">See Project</button></a>
                 </div>
-                <a href="#"><button class="first-see-project-button">See Project</button></a>
             </div>
             <div class="project-1">
                 <img src="images/Img Placeholder-2.png" alt="printed-magazine">
@@ -215,7 +218,7 @@
                     <button class="get-resume-button">Get My Resume</button>
                 </div>
             </div>
-            <p class="line3"></p>
+            <hr class="line3"></hr>
             <ul class="language-framework-skills">
                 <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 55 (1).png" alt="">Languages
                     <ul class="children-of-language-framework-skills-ul">
@@ -246,15 +249,18 @@
             </ul>
         </section>
         <section class="footnote">
-            <div class="brief-note-div">
-                <h3 class="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
+            <div class="brief-note-and-form-div">
+                <div class="brief-note-div">
+                    <h3 class="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
+                    <h3 class="brief-note-desktop">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
+                </div>
+                <form action="https://formspree.io/f/meqdypvw" method="post" class="form-container">
+                    <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
+                    <input class="input-individuals" type="email" placeholder="Email Address" name="email" required>
+                    <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+                    <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
+                </form>
             </div>
-            <form action="https://formspree.io/f/meqdypvw" method="post" class="form-container">
-                <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
-                <input class="input-individuals" type="email" placeholder="Email Address" name="email" required>
-                <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
-                <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
-            </form>
             <p class="line1">line</p>
             <div class="footnote-socials">
                 <a href="#"><img src="images/github.png" alt="github"></a>

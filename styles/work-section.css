@@ -27,9 +27,17 @@
   font-weight: lighter;
 }
 
-#yoga-image {
+#yoga-image-a {
   margin-top: 30px;
 }
+
+#desktop-yoga-image {
+  display: none;
+}
+/* .multi-post-major-div {
+  display: flex;
+  flex-direction: column;
+} */
 
 .multi-post-div {
   display: flex;
@@ -146,4 +154,38 @@
   color: white;
   font-family: Inter, monospace;
   font-size: 17px;
+}
+
+@media (min-width: 768px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #yoga-image {
+    width: 610px;
+    display: none;
+  }
+
+  .recent-work {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    margin-top: 90px;
+  }
+
+  .multi-post-major-div {
+    margin-top: 230px;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+  }
 }
