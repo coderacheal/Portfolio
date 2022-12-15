@@ -132,6 +132,150 @@ button {
 @media (min-width: 768px) {
   .footnote {
     height: 580px;
+    width: 768px;
+  }
+
+  .brief-note-and-form-div {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+  }
+
+  .line1 {
+    width: 100%;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .brief-note {
+    display: none;
+  }
+
+  .brief-note-div {
+    margin-left: 0;
+    width: 300px;
+  }
+
+  .brief-note-desktop {
+    display: flex;
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+  }
+
+  .footnote-socials {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    width: 300px;
+    /* margin-left: 50px; */
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 0;
+  }
+
+  .input-individuals {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    border-bottom-color: #dbd8d7;
+    padding: 10px;
+    width: 300px;
+    height: 18px;
+    font-family: Inter, monospace;
+  }
+  
+  #textarea-box {
+    width: 300px;
+  }
+
+  #get-in-touch-button {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footnote {
+    height: 580px;
+    width: 1024px;
+  }
+
+  .brief-note-and-form-div {
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+  }
+
+  .line1 {
+    width: 100%;
+  }
+
+  .line2 {
+    display: none;
+  }
+
+  .brief-note {
+    display: none;
+  }
+
+  .brief-note-div {
+    margin-left: 0;
+  }
+
+  .brief-note-desktop {
+    display: flex;
+    width: 350px;
+    margin-top: 0;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .footnote-socials {
+    display: flex;
+    width: 300px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    width: 400;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-right: 200px;
+  }
+
+  .input-individuals {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    border-bottom-color: #dbd8d7;
+    padding: 10px;
+    width: 400px;
+    height: 18px;
+    font-family: Inter, monospace;
+  }
+  
+  #textarea-box {
+    width: 400px;
+  }
+
+  #get-in-touch-button {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footnote {
+    height: 580px;
   }
 
   .brief-note-and-form-div {
