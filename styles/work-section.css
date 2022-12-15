@@ -34,10 +34,6 @@
 #desktop-yoga-image {
   display: none;
 }
-/* .multi-post-major-div {
-  display: flex;
-  flex-direction: column;
-} */
 
 .multi-post-div {
   display: flex;
@@ -89,6 +85,10 @@
   font-weight: bold;
 }
 
+.first-see-project-button-desktop {
+  display: none;
+}
+
 .project-1 {
   display: flex;
   flex-direction: column;
@@ -113,6 +113,10 @@
   width: 300px;
   position: absolute;
   right: 0;
+}
+
+.desktop-floating {
+  display: none;
 }
 
 .project-title {
@@ -156,11 +160,34 @@
   font-size: 17px;
 }
 
+.see-project-button-1 {
+  margin-top: 0;
+  padding: 10px;
+  width: 327px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: white;
+  font-family: Inter, monospace;
+  font-size: 17px;
+}
+
+#recent-work-line {
+  display: none;
+}
+
+.desktop-backdrop {
+  display: none;
+}
+
+.desktop-floating {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .work {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .recent-work-div {
@@ -168,24 +195,198 @@
     flex-direction: column;
   }
 
-  #yoga-image {
-    width: 610px;
+  .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+    /* flex-direction: colu; */
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 750px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 60px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
     display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  .work-font {
+    font-size: 20px;
   }
 
   .recent-work {
     display: flex;
-    flex-direction: column;
-    height: 600px;
-    align-items: center;
+    /* margin-top: 90px; */
+    align-items: left;
     margin-top: 90px;
+    height: 10px;
   }
 
   .multi-post-major-div {
-    margin-top: 230px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 
   #desktop-yoga-image {
     display: block;
+    width: 684px;
+    height: 448px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-right: 20px; */
+  }
+
+  #multi-post-title {
+    margin-top: 20px;
+    font-family: 'Crete Round', monospace;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 55px;
+  }
+
+  .multi-post-button {
+    padding: 10px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 375px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-left: 5px;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+  
+  .project-image {
+    margin: 15px;
+    margin-left: 0;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 400px;
+    width: 375px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: absolute;
+    color: #fff;
+    margin-top: 100px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 290px;
+  }
+  .individual-project-title-website {
+    margin-top: 88px;
+  }
+  
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: 400px;
+    width: 350px;
+    margin-top: 0;
+    width: 290px;
   }
 }
