@@ -131,7 +131,7 @@ button {
 
 @media (min-width: 768px) {
   .footnote {
-    height: 580px;
+    height: 660px;
     width: 768px;
   }
 
@@ -176,7 +176,6 @@ button {
 
   .form-container {
     width: 300px;
-    /* margin-left: 50px; */
     margin-top: 150px;
     margin-right: 50px;
     margin-left: 0;
@@ -204,7 +203,7 @@ button {
 
 @media (min-width: 1024px) {
   .footnote {
-    height: 580px;
+    height: 660px;
     width: 1024px;
   }
 
@@ -242,7 +241,7 @@ button {
     display: flex;
     width: 300px;
     margin-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     justify-content: space-between;
   }
 
@@ -275,7 +274,7 @@ button {
 
 @media (min-width: 1440px) {
   .footnote {
-    height: 580px;
+    height: 720px;
     width: 1440px;
   }
 

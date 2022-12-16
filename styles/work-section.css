@@ -241,8 +241,9 @@
   }
   
   #work-intro {
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 85px;
+    font-weight: 700;
   }
 
   .multi-post-major-div {
@@ -262,7 +263,8 @@
   .desktop-project-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 768px;
+    width: 740px;
+    align-self: center;
     /* margin-right: 20px; */
     margin-bottom: 50px;
   }
@@ -309,7 +311,7 @@
     height: 50px;
     color: white;
     font-family: Inter, monospace;
-    margin-left: 12px;
+    margin-left: 5px;
   }
 
   .first-see-project-button {
@@ -429,7 +431,7 @@
   .recent-work-div {
     display: flex;
     flex-direction: column;
-    width: 1024px;
+    width: 980px;
   }
 
   .recent-work {
@@ -440,7 +442,7 @@
 
   .recent-work-title-div {
     display: flex;
-    width: 1024px;
+    width: 900px;
   }
 
   #work-intro {
@@ -451,7 +453,7 @@
   #recent-work-line {
     display: flex;
     height: 1px;
-    width: 950px;
+    width: 490px;
     background-color: black;
     text-align: center;
     margin-left: 40px;
@@ -495,9 +497,8 @@
 
   .desktop-project-div {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 1024px;
-    margin-left: 50px;
+    grid-template-columns: 280px 280px 280px;
+    width: 800px;
   }
 
   #multi-post-title {
@@ -535,13 +536,13 @@
 
   .see-project-button-1 {
     margin-top: 0;
-    width: 300px;
+    width: 270px;
     background-color: #ff6b00;
     border: 0;
     height: 50px;
     color: white;
     font-family: Inter, monospace;
-    margin-left: 22px;
+    margin-left: -5px;
   }
 
   .first-see-project-button {
@@ -570,13 +571,11 @@
 
   .mobile-backdrop {
     display: none;
-    margin: 10px;
   }
   
   .project-image {
-    /* margin: 15px; */
-    margin-left: 0;
-    width: 300px;
+    margin-right: 30px;
+    width: 270px;
   }
 
   .project-title {
@@ -593,14 +592,13 @@
     align-items: center;
     position: relative;
     top: 0;
-    height: 280px;
-    width: 300px;
-    margin-top: 20px;
+    height: 270px;
+    width: 270px;
   }
 
   .desktop-backdrop {
     display: flex;
-    position: relative;
+    margin-right: 20px;
   }
 
   .floating {
@@ -610,10 +608,10 @@
   .desktop-floating {
     display: flex;
     flex-direction: column;
-    width: 230px;
+    width: 250px;
     position: absolute;
     color: #fff;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 0;
   }
 
@@ -621,7 +619,6 @@
     display: flex;
     font-family: 'Crete Round', monospace;
     font-size: 20px;
-    line-height: 17px;
     font-weight: 400;
     margin-bottom: 20px;
     width: 200px;
@@ -638,7 +635,7 @@
     font-size: 15px;
     font-weight: 400px;
     width: 200px;
-    margin-top: 0;
+    margin: 0;
     line-height: 16px;
     width: 200px;
   }
@@ -671,7 +668,8 @@
 
   .recent-work-title-div {
     display: flex;
-    width: 1440px;
+    width: 1100px;
+    justify-content: space-between;
   }
 
   #work-intro {
@@ -682,7 +680,7 @@
   #recent-work-line {
     display: flex;
     height: 1px;
-    width: 950px;
+    width: 750px;
     background-color: black;
     text-align: center;
     margin-left: 40px;
@@ -713,22 +711,22 @@
 
   .multi-post-major-div {
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 20px;
+    margin-left: 0;
   }
 
   #desktop-yoga-image {
     display: block;
     width: 684px;
     height: 448px;
-    margin-left: 80px;
   }
 
   .desktop-project-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 1440px;
-    margin-left: 50px;
+    width: 1000px;
   }
 
   #multi-post-title {
@@ -766,13 +764,13 @@
 
   .see-project-button-1 {
     margin-top: 0;
-    width: 400px;
+    width: 280px;
     background-color: #ff6b00;
     border: 0;
     height: 50px;
     color: white;
     font-family: Inter, monospace;
-    margin-left: 40px;
+    margin-left: 15px;
   }
 
   .first-see-project-button {
@@ -807,7 +805,8 @@
   .project-image {
     margin: 15px;
     margin-left: 0;
-    width: 400px;
+    width: 300px;
+    height: 400px;
   }
 
   .project-title {
@@ -824,8 +823,8 @@
     align-items: center;
     position: relative;
     top: 0;
-    height: 420px;
-    width: 400px;
+    height: 350px;
+    width: 280px;
     margin-top: 20px;
   }
 
@@ -841,10 +840,10 @@
   .desktop-floating {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 280px;
     position: absolute;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .individual-project-title {

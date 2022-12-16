@@ -136,6 +136,10 @@ p {
     width: 768px;
   }
 
+  .display-nav {
+    width: 768px;
+  }
+
   #union-icon {
     display: none;
   }
@@ -230,6 +234,10 @@ p {
 
 @media (min-width: 1024px) {
   .mobile-nav {
+    width: 1024px;
+  }
+
+  .display-nav {
     width: 1024px;
   }
 
@@ -338,7 +346,11 @@ p {
 
 @media (min-width: 1440px) {
   .mobile-nav {
-    width: 100%;
+    width: 1440px;
+  }
+
+  .display-nav {
+    width: 1440px;
   }
 
   #union-icon {
