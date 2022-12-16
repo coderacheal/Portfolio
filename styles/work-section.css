@@ -71,6 +71,10 @@
   background-color: #fff;
 }
 
+.multi-post-button:hover {
+  background-color: rgb(221, 221, 221);
+}
+
 .first-see-project-button {
   margin-left: 35px;
   width: 120px;
@@ -179,6 +183,52 @@
   display: none;
 }
 
+.first-see-project-button:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+.see-project-button:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+.see-project-button-1:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+.see-project-button-1:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.first-see-project-button-desktop:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+.first-see-project-button-desktop:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.multi-post-button:hover {
+  opacity: 0.8;
+}
+
+.project-1-buttons:hover {
+  opacity: 0.6;
+}
+
 @media (min-width: 768px) {
   .work {
     display: flex;
@@ -242,6 +292,10 @@
     margin-bottom: 20px;
     width: 786;
     margin-left: 20px;
+  }
+
+  .multi-post-button {
+    padding: 25px;
   }
 
   #desktop-yoga-image {

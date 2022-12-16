@@ -125,7 +125,23 @@ button {
 }
 
 #get-in-touch-button:hover {
-  background-color: #f6944e;
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+#get-in-touch-button:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.footnote-socials a:hover {
+  opacity: 0.3;
+}
+
+.footnote-socials a:active {
+  opacity: 1;
 }
 
 @media (min-width: 768px) {

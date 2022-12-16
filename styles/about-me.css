@@ -95,6 +95,18 @@
   margin-top: 20px;
 }
 
+.get-resume-button:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5E1;
+  color: #f55800;
+}
+
+.get-resume-button:active {
+  background-color: #e05304;
+  color: white;
+}
+
 @media (min-width: 768px) {
   .language-framework-skills {
     display: flex;
