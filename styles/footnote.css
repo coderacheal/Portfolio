@@ -131,7 +131,7 @@ button {
 @media (min-width: 768px) {
   .footnote {
     height: 660px;
-    width: 768px;
+    width: 100%;
   }
 
   .brief-note-and-form-div {
@@ -202,7 +202,7 @@ button {
 @media (min-width: 1024px) {
   .footnote {
     height: 660px;
-    width: 1024px;
+    width: 100%;
   }
 
   .brief-note-and-form-div {
@@ -272,7 +272,7 @@ button {
 @media (min-width: 1440px) {
   .footnote {
     height: 720px;
-    width: 1440px;
+    width: 100%;
   }
 
   .brief-note-and-form-div {

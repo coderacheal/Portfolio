@@ -13,20 +13,34 @@ button:hover {
   opacity: 0.8;
 }
 
+.project-image:hover {
+  border: 2px solid;
+}
+
+.project-2:hover {
+  border: 2px solid;
+}
+
+@media (min-width: 400px) {
+  body {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   body {
-    width: 768px;
+    width: 100%;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    width: 1024px;
+    width: 100%;
   }
 }
 
 @media (min-width: 1440px) {
   body {
-    width: 1440px;
+    width: 100%;
   }
 }

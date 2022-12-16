@@ -94,7 +94,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 0;
+  /* top: 0; */
   margin-top: 20px;
 }
 
@@ -184,19 +184,13 @@
   .work {
     display: flex;
     flex-direction: column;
-    width: 768px;
+    width: 100%;
   }
 
   .recent-work-div {
     display: flex;
     flex-direction: column;
   }
-
-  /* .recent-work {
-    text-align: left;
-    align-self: flex-start;
-    color: #091e42;
-  } */
 
   .recent-work-title-div {
     display: flex;
@@ -286,6 +280,7 @@
   .button-div {
     height: 35px;
     margin-top: 0;
+    width: 200px;
   }
 
   .floating-1 {
@@ -418,18 +413,18 @@
   .work {
     display: flex;
     flex-direction: column;
-    width: 1024px;
+    width: 100%;
   }
 
   .recent-work-div {
     display: flex;
     flex-direction: column;
-    width: 980px;
   }
 
   .recent-work-title-div {
     display: flex;
-    width: 900px;
+    width: 800px;
+    justify-content: space-between;
   }
 
   #work-intro {
@@ -440,7 +435,7 @@
   #recent-work-line {
     display: flex;
     height: 1px;
-    width: 490px;
+    width: 450px;
     background-color: black;
     text-align: center;
     margin-left: 40px;
@@ -458,11 +453,14 @@
 
   #work-font {
     font-size: 20px;
-    width: 350px;
+    width: 400px;
     line-height: 24px;
   }
 
   .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
     display: flex;
     align-items: left;
     margin-top: 90px;
@@ -471,21 +469,24 @@
 
   .multi-post-major-div {
     display: flex;
+    justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 20px;
+    margin-left: 0;
+    width: 100%;
   }
 
   #desktop-yoga-image {
     display: block;
-    width: 584px;
-    height: 448px;
-    margin-left: 20px;
+    width: 488px;
+    height: 378px;
   }
 
   .desktop-project-div {
     display: grid;
-    grid-template-columns: 280px 280px 280px;
-    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 900px;
+    margin-left: 0;
   }
 
   #multi-post-title {
@@ -520,13 +521,13 @@
 
   .see-project-button-1 {
     margin-top: 0;
-    width: 270px;
+    width: 300px;
     background-color: #ff6b00;
     border: 0;
     height: 50px;
     color: white;
     font-family: Inter, monospace;
-    margin-left: -5px;
+    margin-left: 0;
   }
 
   .first-see-project-button {
@@ -549,17 +550,20 @@
 
   .multi-post-div {
     align-items: flex-start;
-    margin-left: 25px;
-    width: 350px;
+    margin-left: 45px;
+    width: 450px;
   }
 
   .mobile-backdrop {
     display: none;
+    margin: 10px;
   }
 
   .project-image {
-    margin-right: 30px;
-    width: 270px;
+    margin: 15px;
+    margin-left: 0;
+    width: 300px;
+    height: 400px;
   }
 
   .project-title {
@@ -570,19 +574,28 @@
     display: none;
   }
 
+  .project-2 {
+    width: 300px;
+    margin-bottom: 0;
+    height: 424px;
+    margin-top: 20px;
+  }
+
   .project-img-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     top: 0;
-    height: 270px;
-    width: 270px;
+    height: 350px;
+    width: 300px;
+    margin-top: 15px;
   }
 
   .desktop-backdrop {
     display: flex;
-    margin-right: 20px;
+    position: relative;
+    height: 400px
   }
 
   .floating {
@@ -592,42 +605,41 @@
   .desktop-floating {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 280px;
     position: absolute;
     color: #fff;
     margin-top: 50px;
-    margin-left: 0;
   }
 
   .individual-project-title {
     display: flex;
     font-family: 'Crete Round', monospace;
-    font-size: 20px;
+    font-size: 32px;
+    line-height: 44px;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 200px;
-    margin-top: 50px;
+    width: 290px;
   }
 
   .individual-project-title-website {
-    margin-top: 70px;
+    margin-top: 88px;
   }
 
   .individual-project-description {
     display: flex;
     font-family: Inter, monospace;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400px;
-    margin: 0;
-    line-height: 16px;
-    width: 200px;
+    margin-top: 0;
+    line-height: 30px;
+    width: 290px;
   }
 
   .project-1-buttons {
-    width: 200;
-    padding: 10px;
+    width: 390;
+    padding: 15px;
     margin-top: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
 }
 
@@ -635,7 +647,7 @@
   .work {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
   }
 
   .recent-work-div {
@@ -741,14 +753,19 @@
 
   .see-project-button-1 {
     margin-top: 0;
-    width: 280px;
+    width: 300px;
     background-color: #ff6b00;
     border: 0;
     height: 50px;
     color: white;
     font-family: Inter, monospace;
-    margin-left: 15px;
+    margin-bottom: 0;
+    padding-right: 0;
   }
+
+  /* a {
+    width: 300px;
+  } */
 
   .first-see-project-button {
     display: none;
@@ -779,6 +796,13 @@
     margin: 10px;
   }
 
+  .project-2 {
+    width: 300px;
+    margin-bottom: 0;
+    height: 421px;
+    margin-top: 20px;
+  }
+
   .project-image {
     margin: 15px;
     margin-left: 0;
@@ -801,7 +825,7 @@
     position: relative;
     top: 0;
     height: 350px;
-    width: 280px;
+    width: 300px;
     margin-top: 20px;
   }
 
