@@ -236,7 +236,7 @@
     height: 10px;
     color: #091e42;
   }
-  
+
   #work-intro {
     font-size: 30px;
     margin-left: 85px;
@@ -336,7 +336,7 @@
     display: none;
     margin: 10px;
   }
-  
+
   .project-image {
     margin-left: 0;
     width: 235px;
@@ -392,7 +392,7 @@
   .individual-project-title-website {
     margin-top: 40px;
   }
-  
+
   .individual-project-description {
     display: flex;
     font-family: Inter, monospace;
@@ -425,12 +425,6 @@
     display: flex;
     flex-direction: column;
     width: 980px;
-  }
-
-  .recent-work {
-    text-align: left;
-    align-self: flex-start;
-    color: #091e42;
   }
 
   .recent-work-title-div {

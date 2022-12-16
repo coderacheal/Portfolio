@@ -6,7 +6,7 @@
   top: 0;
   z-index: 1;
 }
- 
+
 .display-nav {
   display: flex;
   justify-content: space-between;
@@ -155,7 +155,6 @@ p {
 
   .nav-ul {
     display: flex;
-    padding-right: 50px;
     padding: 0;
     margin-right: 80px;
   }
@@ -256,7 +255,6 @@ p {
 
   .nav-ul {
     display: flex;
-    padding-right: 50px;
     padding: 0;
     margin-right: 80px;
   }
@@ -368,7 +366,6 @@ p {
 
   .nav-ul {
     display: flex;
-    padding-right: 50px;
     padding: 0;
     margin-right: 80px;
   }
