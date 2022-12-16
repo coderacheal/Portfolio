@@ -186,21 +186,21 @@
 .first-see-project-button:hover {
   border: 2px solid;
   border-color: #f55800;
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
 }
 
 .see-project-button:hover {
   border: 2px solid;
   border-color: #f55800;
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
 }
 
 .see-project-button-1:hover {
   border: 2px solid;
   border-color: #f55800;
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
 }
 
@@ -212,17 +212,13 @@
 .first-see-project-button-desktop:hover {
   border: 2px solid;
   border-color: #f55800;
-  background-color: #fff5E1;
+  background-color: #fff5e1;
   color: #f55800;
 }
 
 .first-see-project-button-desktop:active {
   background-color: #e05304;
   color: white;
-}
-
-.multi-post-button:hover {
-  opacity: 0.8;
 }
 
 .project-1-buttons:hover {
@@ -292,10 +288,6 @@
     margin-bottom: 20px;
     width: 786;
     margin-left: 20px;
-  }
-
-  .multi-post-button {
-    padding: 25px;
   }
 
   #desktop-yoga-image {
@@ -815,10 +807,6 @@
     margin-bottom: 0;
     padding-right: 0;
   }
-
-  /* a {
-    width: 300px;
-  } */
 
   .first-see-project-button {
     display: none;
