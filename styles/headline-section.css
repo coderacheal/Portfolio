@@ -6,19 +6,19 @@
   top: 0;
   z-index: 1;
 }
-  
+ 
 .display-nav {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
-  
+
 #union-icon {
   margin-top: 15px;
   margin-right: 45px;
   height: 15px;
 }
-  
+
 #portfolio-name {
   font-weight: bold;
   font-family: Roboto, Arial, monospace;
@@ -28,7 +28,7 @@
   align-items: center;
   padding-left: 25px;
 }
-  
+
 a {
   text-decoration: none;
 }
@@ -167,7 +167,7 @@ p {
     color: white;
     text-decoration: none;
   }
-  
+
   .headline-section {
     display: flex;
     margin-top: 72px;
@@ -193,19 +193,19 @@ p {
     margin-top: 250px;
     padding-left: 0;
   }
-  
+
   .social-li {
     margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 70px;
     height: 44px;
   }
-  
+
   .developer-intro {
     margin-top: 100px;
     width: 400px;
   }
-  
+
   .developer-name {
     font-family: 'Crete Round', monospace;
     font-size: 72px;
@@ -214,7 +214,7 @@ p {
     line-height: 81px;
     margin-bottom: 20px;
   }
-  
+
   .developer-job {
     font-family: Inter, monospace;
     font-size: 32px;
@@ -223,7 +223,7 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+
   .developer-description {
     font-family: Inter, monospace;
     font-size: 20px;
@@ -268,7 +268,7 @@ p {
     color: white;
     text-decoration: none;
   }
-  
+
   .headline-section {
     display: flex;
     margin-top: 72px;
@@ -297,7 +297,7 @@ p {
     background-color: #1c1a19;
     color: white;
   }
-  
+
   .social-ul {
     list-style-type: none;
     width: 150px;
@@ -305,19 +305,19 @@ p {
     margin-top: 250px;
     padding-left: 0;
   }
-  
+
   .social-li {
     margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 70px;
     height: 44px;
   }
-  
+
   .developer-intro {
     margin-top: 100px;
     width: 550px;
   }
-  
+
   .developer-name {
     font-family: 'Crete Round', monospace;
     font-size: 72px;
@@ -326,7 +326,7 @@ p {
     line-height: 81px;
     margin-bottom: 20px;
   }
-  
+
   .developer-job {
     font-family: Inter, monospace;
     font-size: 32px;
@@ -335,7 +335,7 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+
   .developer-description {
     font-family: Inter, monospace;
     font-size: 20px;
@@ -380,7 +380,7 @@ p {
     color: white;
     text-decoration: none;
   }
-  
+
   .headline-section {
     display: flex;
     margin-top: 72px;
@@ -409,7 +409,7 @@ p {
     background-color: #1c1a19;
     color: white;
   }
-  
+
   .social-ul {
     list-style-type: none;
     width: 150px;
@@ -417,19 +417,19 @@ p {
     margin-top: 250px;
     padding-left: 0;
   }
-  
+
   .social-li {
     margin-bottom: 10px;
     padding-left: 50px;
     padding-right: 70px;
     height: 44px;
   }
-  
+
   .developer-intro {
     margin-top: 100px;
     width: 550px;
   }
-  
+
   .developer-name {
     font-family: 'Crete Round', monospace;
     font-size: 72px;
@@ -438,7 +438,7 @@ p {
     line-height: 81px;
     margin-bottom: 20px;
   }
-  
+
   .developer-job {
     font-family: Inter, monospace;
     font-size: 32px;
@@ -447,7 +447,7 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-  
+
   .developer-description {
     font-family: Inter, monospace;
     font-size: 20px;

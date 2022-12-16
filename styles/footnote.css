@@ -128,7 +128,6 @@ button {
   background-color: #f6944e;
 }
 
-
 @media (min-width: 768px) {
   .footnote {
     height: 660px;
@@ -182,7 +181,6 @@ button {
   }
 
   .input-individuals {
-    padding: 15px;
     margin-bottom: 20px;
     border-bottom: 1px solid;
     border-bottom-color: #dbd8d7;
@@ -253,7 +251,6 @@ button {
   }
 
   .input-individuals {
-    padding: 15px;
     margin-bottom: 20px;
     border-bottom: 1px solid;
     border-bottom-color: #dbd8d7;
@@ -318,7 +315,6 @@ button {
   }
 
   .input-individuals {
-    padding: 15px;
     margin-bottom: 20px;
     border-bottom: 1px solid;
     border-bottom-color: #dbd8d7;
