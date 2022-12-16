@@ -559,7 +559,7 @@
   .mobile-backdrop {
     display: none;
   }
-  
+
   .project-image {
     margin-right: 30px;
     width: 270px;
@@ -615,13 +615,12 @@
   .individual-project-title-website {
     margin-top: 70px;
   }
-  
+
   .individual-project-description {
     display: flex;
     font-family: Inter, monospace;
     font-size: 15px;
     font-weight: 400px;
-    width: 200px;
     margin: 0;
     line-height: 16px;
     width: 200px;
@@ -645,12 +644,6 @@
   .recent-work-div {
     display: flex;
     flex-direction: column;
-  }
-
-  .recent-work {
-    text-align: left;
-    align-self: flex-start;
-    color: #091e42;
   }
 
   .recent-work-title-div {
@@ -690,6 +683,9 @@
   }
 
   .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
     display: flex;
     align-items: left;
     margin-top: 90px;
@@ -727,6 +723,7 @@
   .multi-post-button {
     border: 1px solid;
     border-color: #8993a4;
+    padding: 10px;
   }
 
   .work-description {
@@ -735,10 +732,6 @@
 
   .button-div {
     height: 55px;
-  }
-
-  .multi-post-button {
-    padding: 10px;
   }
 
   .floating-1 {
@@ -788,7 +781,7 @@
     display: none;
     margin: 10px;
   }
-  
+
   .project-image {
     margin: 15px;
     margin-left: 0;
@@ -846,7 +839,7 @@
   .individual-project-title-website {
     margin-top: 88px;
   }
-  
+
   .individual-project-description {
     display: flex;
     font-family: Inter, monospace;
