@@ -499,6 +499,7 @@
   .multi-post-button {
     border: 1px solid;
     border-color: #8993a4;
+    padding: 10px;
   }
 
   .work-description {
@@ -507,10 +508,6 @@
 
   .button-div {
     height: 55px;
-  }
-
-  .multi-post-button {
-    padding: 10px;
   }
 
   .floating-1 {
