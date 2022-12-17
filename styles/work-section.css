@@ -72,7 +72,7 @@
 }
 
 .multi-post-button:hover {
-  background-color: rgb(221, 221, 221);
+  background-color: rgba(230, 230, 230, 0.989);
 }
 
 .first-see-project-button {
@@ -149,6 +149,7 @@
 
 .see-project-div {
   align-self: flex-start;
+  margin: 0;
 }
 
 .see-project-button {
@@ -223,6 +224,63 @@
 
 .project-1-buttons:hover {
   opacity: 0.6;
+}
+
+.visible-project-div {
+  position: relative;
+  margin: 0;
+  background-color: #ff6b00;
+}
+
+.div-for-image-hovering {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  height: 436px;
+  width: 327px;
+  border: solid;
+  border-color: rgb(117, 115, 115);
+}
+
+.div-for-image-hovering:hover {
+  opacity: 1;
+}
+
+.background-image-hover {
+  height: 350px;
+  width: 300px;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  height: 375px;
+  width: 327px;
+}
+
+.hover-button {
+  height: 55px;
+  width: 327px;
+  position: absolute;
+  top: 380px;
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.hover-button:hover {
+  background-color: #fff5e1;
+  color: #f55800
+}
+
+.hover-button:active {
+  background-color: #e05304;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -417,6 +475,7 @@
     color: #fff;
     margin-top: 50px;
     height: 100px;
+    margin-left: 15px;
   }
 
   .individual-project-title {
@@ -451,6 +510,43 @@
   .project-1-buttons {
     padding: 5px;
     font-size: 13px;
+  }
+
+  .div-for-image-hovering {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    height: 276px;
+    width: 235px;
+    border: solid;
+    border-color: rgb(117, 115, 115);
+  }
+  
+  .background-image-hover {
+    height: 350px;
+    width: 300px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    height: 221px;
+    width: 235px;
+  }
+  
+  .hover-button {
+    height: 55px;
+    width: 235px;
+    position: absolute;
+    top: 220px;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* background-color: #ff6b00; */
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
   }
 }
 
@@ -685,6 +781,56 @@
     padding: 15px;
     margin-top: 20px;
     margin-right: 20px;
+  }
+
+  .div-for-image-hovering {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    height: 370px;
+    width: 290px;
+    border: 1px solid;
+    /* border-color: rgb(117, 115, 115); */
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  
+  .background-image-hover {
+    height: 370px;
+    width: 300px;
+    margin-left: -12px;
+    position: absolute;
+    top: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(117, 115, 115);
+    
+  }
+  
+  .hover-button {
+    height: 55px;
+    width: 303px;
+    position: absolute;
+    top: 370px;
+    /* border: 0; */
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -12px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(117, 115, 115);
+  }
+
+  .visible-project-div {
+    background-color: white;
   }
 }
 
