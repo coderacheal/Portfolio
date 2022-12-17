@@ -114,7 +114,7 @@ A web browser and a stable internet
 
 To run the project, execute the following command:
 
-Right click on the index.html file
+- Right click on the index.html file and open with live server
 
 ### Run tests
 
@@ -152,9 +152,8 @@ A web browser
 
 > Describe 1 - 3 features you will add to the project.
 
-- [1] **[Adding projects I have done]**
-- [ ] **[My contact form]**
-- [ ] **[CV page]**
+- [] **Adding projects I have done**
+- [ ] **CV page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
