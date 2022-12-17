@@ -249,8 +249,6 @@
 }
 
 .background-image-hover {
-  height: 350px;
-  width: 300px;
   margin: 0;
   position: absolute;
   top: 10px;
@@ -275,7 +273,7 @@
 
 .hover-button:hover {
   background-color: #fff5e1;
-  color: #f55800
+  color: #f55800;
 }
 
 .hover-button:active {
@@ -365,7 +363,6 @@
   .project-1 {
     height: 250px;
   }
-  
 
   #multi-post-title {
     margin-top: 30px;
@@ -530,15 +527,13 @@
   }
   
   .background-image-hover {
-    height: 350px;
-    width: 300px;
     margin: 0;
     position: absolute;
     top: 0;
     height: 221px;
     width: 235px;
   }
-  
+
   .hover-button {
     height: 55px;
     width: 235px;
@@ -800,7 +795,6 @@
     height: 370px;
     width: 290px;
     border: 1px solid;
-    /* border-color: rgb(117, 115, 115); */
     margin-left: 0;
     margin-bottom: 5px;
   }
@@ -815,15 +809,13 @@
     border-left: 1px solid;
     border-right: 1px solid;
     border-color: rgb(117, 115, 115);
-    
   }
-  
+
   .hover-button {
     height: 55px;
     width: 303px;
     position: absolute;
     top: 370px;
-    /* border: 0; */
     padding-top: 0;
     padding-bottom: 0;
     color: #fff;
