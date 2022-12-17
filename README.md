@@ -23,7 +23,7 @@
 # 📖 [Porfolio] <a name="about-project"></a>
 
 
-**Portfolio** is a simple mobile version of a certificate
+**Portfolio** is a responsive web design that contains projects I have done
 
 ## 🛠 Built With <a name="HTML"></a>
 
