@@ -55,10 +55,6 @@ p {
   transition: transform 2s;
 }
 
-.name:hover {
-  transform: translateY(100%);
-}
-
 .name {
   color: #ff6b00;
   font-family: Crete Round, Arial, monospace;
@@ -68,6 +64,10 @@ p {
   line-height: 10px;
   letter-spacing: 0.37px;
   transition: transform 2s;
+}
+
+.name:hover {
+  transform: translateY(100%);
 }
 
 #job-title {
@@ -260,7 +260,7 @@ p {
   }
 
   .developer-name:hover {
-    transform: translatex(100%);
+    transform: translateX(100%);
   }
 
   .developer-job {

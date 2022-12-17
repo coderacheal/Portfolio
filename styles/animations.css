@@ -5,7 +5,7 @@ button {
 
 button:hover {
   color: white;
-  transform: scale(1.05, 1.05)
+  transform: scale(1.05, 1.05);
 }
 
 input:hover {
@@ -21,7 +21,7 @@ textarea:hover {
 }
 
 .social-li-img:hover {
-  transform: scale(1.5,1.5);
+  transform: scale(1.5, 1.5);
 }
 
 .footnote-socials a:hover {
@@ -33,7 +33,7 @@ textarea:hover {
 }
 
 .footnote-socials-li {
-  transition: transform 1s
+  transition: transform 1s;
 }
 
 .footnote-socials-li:hover {

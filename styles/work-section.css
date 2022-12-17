@@ -249,11 +249,8 @@
   transition: transform 1.5s;
 }
 
-  .div-for-image-hovering:hover {
-    transform: scale(1.1, 1.1);
-  }
-
 .div-for-image-hovering:hover {
+  transform: scale(1.1, 1.1);
   opacity: 1;
 }
 
@@ -363,7 +360,7 @@
   }
 
   #desktop-yoga-image:hover {
-    transform: scale(1.05, 1.05) 
+    transform: scale(1.05, 1.05);
   }
 
   .desktop-project-div {
@@ -643,7 +640,7 @@
   }
 
   #desktop-yoga-image:hover {
-    transform: scale(1.1, 1.05) 
+    transform: scale(1.1, 1.05); 
   }
 
   .desktop-project-div {
