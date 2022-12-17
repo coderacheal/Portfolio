@@ -97,7 +97,7 @@ Clone this repository to your desired folder:
 
   cd my-folder
   
-  git clone git@github.com:https://github.com/coderacheal/Portfolio.git 
+  git clone https://github.com/coderacheal/Portfolio.git 
 
 Once done, open the index.html file in live server
 
