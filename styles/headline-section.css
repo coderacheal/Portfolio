@@ -26,6 +26,13 @@
   text-align: justify;
   align-items: center;
   padding-left: 25px;
+  animation-name: spin;
+  animation-duration: 4s;
+}
+
+@keyframes spin {
+  from { transform: rotate(-0deg); }
+  to { transform: rotate(360deg); }
 }
 
 a {
