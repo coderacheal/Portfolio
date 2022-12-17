@@ -226,6 +226,10 @@
   opacity: 0.6;
 }
 
+.last-mobile-project-tile {
+  margin-bottom: 100px;
+}
+
 .visible-project-div {
   position: relative;
   margin: 0;
@@ -1038,7 +1042,7 @@
   .individual-project-title {
     display: flex;
     font-family: 'Crete Round', monospace;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 44px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -1052,11 +1056,11 @@
   .individual-project-description {
     display: flex;
     font-family: Inter, monospace;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400px;
     margin-top: 0;
-    line-height: 30px;
-    width: 290px;
+    line-height: 24px;
+    width: 280px;
   }
 
   .project-1-buttons {
