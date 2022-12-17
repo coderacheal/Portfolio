@@ -57,8 +57,8 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[Header]**
-- **[Social Media Icon]**
+- **[Project tiles]**
+- **[Interactive icons]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,6 +69,8 @@
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
+Please note that this link is not yet available
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -76,7 +78,7 @@
 
 > Install npm and ignore all node_modules
 > Add appropriate linter to your code directory
-> Have a basic understanding of flex-box
+> Have a basic understanding of flex-box, and grid
 
 To get a local copy up and running, follow these steps.
 
@@ -87,6 +89,8 @@ In order to run this project you need:
 Go to this repsitory.
 Click on Code
 Clone the repository using your https link
+This will gove you access to all files
+
 
 
 
@@ -94,9 +98,10 @@ Clone the repository using your https link
 
 Clone this repository to your desired folder:
 
-
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
+
+Once done, open the index.html file in live server
 
 
 ### Install
@@ -115,7 +120,7 @@ Right click on the index.html file
 
 To run tests, run the following command:
 
-Check to make sure everything is working properly
+How to run test will be added in a future update
 
 
 ### Deployment
@@ -169,7 +174,9 @@ Feel free to check the [issues page](../../issues/).
 
 
 
-If you like this project follow my github.
+- If you like this project follow my github. 
+- Give me star
+- Say hi on twitter
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
