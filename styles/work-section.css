@@ -246,7 +246,12 @@
   width: 327px;
   border: solid;
   border-color: rgb(117, 115, 115);
+  transition: transform 1.5s;
 }
+
+  .div-for-image-hovering:hover {
+    transform: scale(1.1, 1.1);
+  }
 
 .div-for-image-hovering:hover {
   opacity: 1;
@@ -354,6 +359,11 @@
     display: block;
     width: 450px;
     height: 300px;
+    transition: transform 3s;
+  }
+
+  #desktop-yoga-image:hover {
+    transform: scale(1.05, 1.05) 
   }
 
   .desktop-project-div {
@@ -528,6 +538,11 @@
     width: 235px;
     border: solid;
     border-color: rgb(117, 115, 115);
+    transition: transform 2s;
+  }
+
+  .div-for-image-hovering:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .background-image-hover {
@@ -624,6 +639,11 @@
     display: block;
     width: 488px;
     height: 378px;
+    transition: transform 3s;
+  }
+
+  #desktop-yoga-image:hover {
+    transform: scale(1.1, 1.05) 
   }
 
   .desktop-project-div {
@@ -693,7 +713,7 @@
     font-family: Inter, monospace;
     font-size: 17px;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .multi-post-div {
@@ -801,6 +821,11 @@
     border: 1px solid;
     margin-left: 0;
     margin-bottom: 5px;
+    transition: transform 2s;
+  }
+
+  .div-for-image-hovering:hover {
+    transform: scale(1.1, 1.1);
   }
 
   .background-image-hover {

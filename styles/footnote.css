@@ -136,14 +136,6 @@ button {
   color: white;
 }
 
-.footnote-socials a:hover {
-  opacity: 0.3;
-}
-
-.footnote-socials a:active {
-  opacity: 1;
-}
-
 @media (min-width: 768px) {
   .footnote {
     height: 660px;
