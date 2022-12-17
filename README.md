@@ -152,7 +152,7 @@ A web browser
 
 > Describe 1 - 3 features you will add to the project.
 
-- [] **Adding projects I have done**
+- [ ] **Adding projects I have done**
 - [ ] **CV page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
