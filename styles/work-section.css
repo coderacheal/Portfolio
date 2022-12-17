@@ -109,7 +109,7 @@
 }
 
 .last-project {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .floating {
@@ -362,6 +362,11 @@
     margin-bottom: 50px;
   }
 
+  .project-1 {
+    height: 250px;
+  }
+  
+
   #multi-post-title {
     margin-top: 30px;
     font-family: 'Crete Round', monospace;
@@ -542,7 +547,6 @@
     border: 0;
     padding-top: 0;
     padding-bottom: 0;
-    /* background-color: #ff6b00; */
     color: #fff;
     font-family: Inter, monospace;
     font-size: 17px;
@@ -613,7 +617,7 @@
     justify-content: space-between;
     margin-top: 100px;
     margin-bottom: 20px;
-    margin-left: 0;
+    margin-left: 50px;
     width: 100%;
   }
 
@@ -627,7 +631,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 900px;
-    margin-left: 0;
+    margin-left: -20px;
+  }
+
+  .project-1 {
+    height: 450px;
   }
 
   #multi-post-title {
@@ -910,6 +918,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1000px;
+    margin-left: -180px;
   }
 
   #multi-post-title {
