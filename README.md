@@ -27,9 +27,10 @@
 
 ## 🛠 Built With <a name="HTML"></a>
 
-### Tech Stack <a name="CSS"></a>
+### 🖥️ Tech Stack <a name="CSS"></a>
 
-> I used HTML & CSS for this project
+- HTML
+- CSS
 
 <details>
   <summary>Client</summary>
@@ -55,17 +56,14 @@
 
 ### Key Features <a name="Mobile Version of Portfolio"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Project tiles]**
-- **[Interactive icons]**
+- **Project tiles**
+- **Interactive icons**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
@@ -93,13 +91,13 @@ This will gove you access to all files
 
 
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  
+  git clone git@github.com:https://github.com/coderacheal/Portfolio.git 
 
 Once done, open the index.html file in live server
 
