@@ -1,0 +1,42 @@
+body {
+  width: 400px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:hover {
+  opacity: 0.7;
+}
+
+textarea:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 400px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 100%;
+  }
+}

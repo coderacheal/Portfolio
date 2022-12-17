@@ -1,121 +1,528 @@
-body {
-    background-color: black;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-  }
-  
-  .mobile-view {
-    display: grid;
-    grid-template-columns: 400px;
-    justify-content: center;
-    background-color: #1c1a19;
-    position: relative;
-  }
-  
+.mobile-nav {
+  height: 72px;
+  background-color: #3e3c3c;
+  position: fixed;
+  width: 400px;
+  top: 0;
+  z-index: 3;
+}
+
+.display-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#union-icon {
+  margin-top: 15px;
+  margin-right: 45px;
+  height: 15px;
+}
+
+#portfolio-name {
+  font-weight: bold;
+  font-family: Roboto, Arial, monospace;
+  font-size: 18px;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+  padding-left: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: white;
+}
+
+.headline-section {
+  height: 800px;
+  background-color: #1c1a19;
+  background-image: url(/images/mobile-side-image.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.mobile-headline-intro-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-div {
+  padding-top: 240px;
+  padding-left: 20px;
+}
+
+.name {
+  color: #ff6b00;
+  font-family: Crete Round, Arial, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 10px;
+  letter-spacing: 0.37px;
+}
+
+#job-title {
+  width: 327px;
+  height: 27px;
+  font-family: Roboto, Arial, monospace;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.job-title-div {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#introduction {
+  width: 327px;
+  height: 123px;
+  font-family: Poppins, Arial, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 20px;
+}
+
+.social {
+  margin-top: 0;
+  display: flex;
+  width: 250px;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-right: 100px;
+  padding-left: 15px;
+}
+
+.icon-interactions {
+  display: flex;
+}
+
+.icon-interactions:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+/* Desktop Section  */
+.nav-ul {
+  list-style-type: none;
+  display: none;
+  vertical-align: center;
+  color: white;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.desktop-headline-intro-div {
+  display: none;
+}
+
+.social-li:hover {
+  opacity: 0.3;
+}
+
+@media (min-width: 400px) {
   .mobile-nav {
-    height: 92px;
-    background-color: #3c3a39;
-    position: fixed;
-    width: 400px;
-    top: 0;
-    z-index: 1;
+    width: 100%;
   }
-  
+
   .display-nav {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+  }
+
+  .headline-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    width: 100%;
+    height: 72px;
+  }
+
+  .display-nav {
+    width: 100%;
+    height: 72px;
+  }
+
+  #union-icon {
+    display: none;
+  }
+
+  #portfolio-name {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: center;
     margin-top: 25px;
   }
-  
-  #union-icon {
-    margin-top: 15px;
-    margin-right: 45px;
-    height: 15px;
+
+  .nav-ul {
+    display: flex;
+    padding: 0;
+    margin-right: 80px;
+    height: 72px;
+    margin-top: 0;
   }
-  
-  #portfolio-name {
-    font-weight: bold;
-    font-family: Roboto, Arial, monospace;
+
+  .nav-items {
+    margin-left: 25px;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-items-a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: block;
+    font-family: Inter, monospace;
     font-size: 18px;
-    display: flex;
-    text-align: justify;
-    align-items: center;
-    padding-left: 25px;
+    margin-top: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
-  
-  p {
-    color: white;
+
+  .nav-items-a:hover {
+    background-color: #555;
   }
-  
+
   .headline-section {
-    margin-left: 20px;
-    height: 660px;
-  }
-  
-  .name-div {
-    margin-top: 240px;
-  }
-  
-  .name {
-    color: #ff6b00;
-    font-family: Crete Round, Arial, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 10px;
-    letter-spacing: 0.37px;
-  }
-  
-  #job-title {
-    width: 327px;
-    height: 27px;
-    font-family: Roboto, Arial, monospace;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    color: white;
-    line-height: 32px;
     display: flex;
-    align-items: center;
+    margin-top: 72px;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px;
+    width: 100%;
   }
-  
-  #introduction {
-    width: 327px;
-    height: 123px;
-    font-family: Poppins, Arial, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
+
+  .mobile-headline-intro-div {
+    display: none;
   }
-  
-  .job-title-div {
-    margin-top: 10px;
-  }
-  
-  .social {
-    margin-top: 30px;
+
+  .desktop-headline-intro-div {
     display: flex;
-    width: 250px;
+  }
+
+  .social-ul {
     list-style-type: none;
-    justify-content: space-between;
-    margin-right: 100px;
+    width: 150px;
+    align-content: center;
+    margin-top: 250px;
+    padding-left: 0;
   }
-  
-  .icon-interactions {
+
+  .social-li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+    height: 44px;
+  }
+
+  .developer-intro {
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .developer-name {
+    font-family: 'Crete Round', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    color: #f55800;
+    line-height: 81px;
+    margin-bottom: 20px;
+  }
+
+  .developer-job {
+    font-family: Inter, monospace;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .developer-description {
+    font-family: Inter, monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-nav {
+    width: 100%;
+  }
+
+  .display-nav {
+    width: 100%;
+  }
+
+  #union-icon {
+    display: none;
+  }
+
+  #portfolio-name {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 25px;
+  }
+
+  .nav-ul {
     display: flex;
-    margin-left: 10px;
+    padding: 0;
+    margin-right: 80px;
+    height: 72px;
+    margin-top: 0;
   }
-  
-  .icon-interactions:hover {
-    background-color: gray;
-    opacity: 0.7;
+
+  .nav-items {
+    margin-left: 25px;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
   }
+
+  .nav-items-a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: block;
+    font-family: Inter, monospace;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .nav-items-a:hover {
+    background-color: #555;
+  }
+
+  .headline-section {
+    display: flex;
+    margin-top: 72px;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 450px;
+  }
+
+  .mobile-headline-intro-div {
+    display: none;
+  }
+
+  .desktop-headline-intro-div {
+    display: flex;
+  }
+
+  .intro-page {
+    margin-top: 72px;
+    display: flex;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #1c1a19;
+    color: white;
+  }
+
+  .social-ul {
+    list-style-type: none;
+    width: 150px;
+    align-content: center;
+    margin-top: 250px;
+    padding-left: 0;
+  }
+
+  .social-li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+    height: 44px;
+  }
+
+  .developer-intro {
+    margin-top: 100px;
+    width: 550px;
+  }
+
+  .developer-name {
+    font-family: 'Crete Round', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    color: #f55800;
+    line-height: 81px;
+    margin-bottom: 20px;
+  }
+
+  .developer-job {
+    font-family: Inter, monospace;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .developer-description {
+    font-family: Inter, monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mobile-nav {
+    width: 100%;
+  }
+
+  .display-nav {
+    width: 100%;
+  }
+
+  #union-icon {
+    display: none;
+  }
+
+  #portfolio-name {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 25px;
+  }
+
+  .nav-ul {
+    display: flex;
+    padding: 0;
+    margin-right: 80px;
+    height: 72px;
+    margin-top: 0;
+  }
+
+  .nav-items {
+    margin-left: 25px;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-items-a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    display: block;
+    font-family: Inter, monospace;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .nav-items-a:hover {
+    background-color: #555;
+  }
+
+  .headline-section {
+    display: flex;
+    margin-top: 72px;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: auto;
+  }
+
+  .mobile-headline-intro-div {
+    display: none;
+  }
+
+  .desktop-headline-intro-div {
+    display: flex;
+  }
+
+  .intro-page {
+    margin-top: 72px;
+    display: flex;
+    height: 870px;
+    background-image: url('/images/Illustration-header@1x.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #1c1a19;
+    color: white;
+  }
+
+  .social-ul {
+    list-style-type: none;
+    width: 150px;
+    align-content: center;
+    margin-top: 250px;
+    padding-left: 0;
+  }
+
+  .social-li {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 70px;
+    height: 44px;
+  }
+
+  .developer-intro {
+    margin-top: 100px;
+    width: 550px;
+  }
+
+  .developer-name {
+    font-family: 'Crete Round', monospace;
+    font-size: 72px;
+    font-weight: 400;
+    color: #f55800;
+    line-height: 81px;
+    margin-bottom: 20px;
+  }
+
+  .developer-job {
+    font-family: Inter, monospace;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .developer-description {
+    font-family: Inter, monospace;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  }
+}

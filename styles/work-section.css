@@ -27,8 +27,12 @@
   font-weight: lighter;
 }
 
-#yoga-image {
+#yoga-image-a {
   margin-top: 30px;
+}
+
+#desktop-yoga-image {
+  display: none;
 }
 
 .multi-post-div {
@@ -67,6 +71,10 @@
   background-color: #fff;
 }
 
+.multi-post-button:hover {
+  background-color: rgba(230, 230, 230, 0.989);
+}
+
 .first-see-project-button {
   margin-left: 35px;
   width: 120px;
@@ -81,12 +89,15 @@
   font-weight: bold;
 }
 
+.first-see-project-button-desktop {
+  display: none;
+}
+
 .project-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 0;
   margin-top: 20px;
 }
 
@@ -98,13 +109,17 @@
 }
 
 .last-project {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .floating {
   width: 300px;
   position: absolute;
   right: 0;
+}
+
+.desktop-floating {
+  display: none;
 }
 
 .project-title {
@@ -134,6 +149,7 @@
 
 .see-project-div {
   align-self: flex-start;
+  margin: 0;
 }
 
 .see-project-button {
@@ -146,4 +162,911 @@
   color: white;
   font-family: Inter, monospace;
   font-size: 17px;
+}
+
+.see-project-button-1 {
+  margin-top: 0;
+  padding: 10px;
+  width: 327px;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: white;
+  font-family: Inter, monospace;
+  font-size: 17px;
+}
+
+#recent-work-line {
+  display: none;
+}
+
+.desktop-backdrop {
+  display: none;
+}
+
+.first-see-project-button:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.see-project-button:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.see-project-button-1:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.see-project-button-1:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.first-see-project-button-desktop:hover {
+  border: 2px solid;
+  border-color: #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.first-see-project-button-desktop:active {
+  background-color: #e05304;
+  color: white;
+}
+
+.project-1-buttons:hover {
+  opacity: 0.6;
+}
+
+.last-mobile-project-tile {
+  margin-bottom: 100px;
+}
+
+.visible-project-div {
+  position: relative;
+  margin: 0;
+  background-color: #ff6b00;
+}
+
+.div-for-image-hovering {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  height: 436px;
+  width: 327px;
+  border: solid;
+  border-color: rgb(117, 115, 115);
+}
+
+.div-for-image-hovering:hover {
+  opacity: 1;
+}
+
+.background-image-hover {
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  height: 375px;
+  width: 327px;
+}
+
+.hover-button {
+  height: 55px;
+  width: 327px;
+  position: absolute;
+  top: 380px;
+  border: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #ff6b00;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.hover-button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.hover-button:active {
+  background-color: #e05304;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+    width: 768px;
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 350px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 35px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
+    display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  #work-font {
+    font-size: 14px;
+    width: 200px;
+    margin: 0;
+    line-height: 15px;
+    color: #091e42;
+  }
+
+  .recent-work {
+    display: flex;
+    align-items: left;
+    margin-top: 90px;
+    height: 10px;
+    color: #091e42;
+  }
+
+  #work-intro {
+    font-size: 30px;
+    margin-left: 85px;
+    font-weight: 700;
+  }
+
+  .multi-post-major-div {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 786;
+    margin-left: 20px;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+    width: 450px;
+    height: 300px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 740px;
+    align-self: center;
+    margin-bottom: 50px;
+  }
+
+  .project-1 {
+    height: 250px;
+  }
+
+  #multi-post-title {
+    margin-top: 30px;
+    font-family: 'Crete Round', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: #091e42;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+    padding: 5px;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 35px;
+    margin-top: 0;
+    width: 200px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 235px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-left: 5px;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 100px;
+    padding: 5px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 30px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+    height: 200px;
+    margin-left: 15px;
+    width: 250px;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+
+  .project-image {
+    margin-left: 0;
+    width: 235px;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 226px;
+    width: 235px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+    height: 100px;
+    margin-left: 15px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+  .individual-project-title-website {
+    margin-top: 40px;
+  }
+
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-top: 0;
+    width: 180px;
+  }
+
+  .project-1-buttons-ul {
+    height: 30px;
+    margin-top: 0;
+    width: 200px;
+  }
+
+  .project-1-buttons {
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .div-for-image-hovering {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    height: 276px;
+    width: 235px;
+    border: solid;
+    border-color: rgb(117, 115, 115);
+  }
+
+  .background-image-hover {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    height: 221px;
+    width: 235px;
+  }
+
+  .hover-button {
+    height: 55px;
+    width: 235px;
+    position: absolute;
+    top: 220px;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1024px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+  }
+
+  #work-intro {
+    margin-left: 95px;
+    width: 250px;
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 450px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 45px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
+    display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  #work-font {
+    font-size: 20px;
+    width: 400px;
+    line-height: 24px;
+  }
+
+  .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
+    display: flex;
+    align-items: left;
+    margin-top: 90px;
+    height: 10px;
+  }
+
+  .multi-post-major-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 100%;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+    width: 488px;
+    height: 378px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 900px;
+    margin-left: -20px;
+  }
+
+  .project-1 {
+    height: 450px;
+  }
+
+  #multi-post-title {
+    margin-top: 35px;
+    font-family: 'Crete Round', monospace;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+    padding: 10px;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 55px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 300px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-left: 0;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+    margin-left: 45px;
+    width: 450px;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+
+  .project-image {
+    margin: 15px;
+    margin-left: 0;
+    width: 300px;
+    height: 400px;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-2 {
+    width: 300px;
+    margin-bottom: 0;
+    height: 424px;
+    margin-top: 20px;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 350px;
+    width: 300px;
+    margin-top: 15px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+    height: 400px;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 290px;
+  }
+
+  .individual-project-title-website {
+    margin-top: 88px;
+  }
+
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: 400px;
+    margin-top: 0;
+    line-height: 30px;
+    width: 290px;
+  }
+
+  .project-1-buttons {
+    width: 390;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .div-for-image-hovering {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    height: 370px;
+    width: 290px;
+    border: 1px solid;
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .background-image-hover {
+    height: 370px;
+    width: 300px;
+    margin-left: -12px;
+    position: absolute;
+    top: 0;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(117, 115, 115);
+  }
+
+  .hover-button {
+    height: 55px;
+    width: 303px;
+    position: absolute;
+    top: 370px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -12px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgb(117, 115, 115);
+  }
+
+  .visible-project-div {
+    background-color: white;
+  }
+}
+
+@media (min-width: 1440px) {
+  .work {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .recent-work-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-work-title-div {
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+  }
+
+  #work-intro {
+    margin-left: 95px;
+    width: 250px;
+  }
+
+  #recent-work-line {
+    display: flex;
+    height: 1px;
+    width: 750px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 45px;
+    vertical-align: center;
+  }
+
+  .yoga-image-a {
+    display: none;
+  }
+
+  #yoga-image {
+    display: none;
+  }
+
+  #work-font {
+    font-size: 20px;
+    width: 400px;
+    line-height: 24px;
+  }
+
+  .recent-work {
+    text-align: left;
+    align-self: flex-start;
+    color: #091e42;
+    display: flex;
+    align-items: left;
+    margin-top: 90px;
+    height: 10px;
+  }
+
+  .multi-post-major-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  #desktop-yoga-image {
+    display: block;
+    width: 684px;
+    height: 448px;
+  }
+
+  .desktop-project-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
+    margin-left: -180px;
+  }
+
+  #multi-post-title {
+    margin-top: 35px;
+    font-family: 'Crete Round', monospace;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+  }
+
+  .multi-post-button {
+    border: 1px solid;
+    border-color: #8993a4;
+    padding: 10px;
+  }
+
+  .work-description {
+    margin: 0;
+  }
+
+  .button-div {
+    height: 55px;
+  }
+
+  .floating-1 {
+    display: none;
+  }
+
+  .see-project-button {
+    display: none;
+  }
+
+  .see-project-button-1 {
+    margin-top: 0;
+    width: 300px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: white;
+    font-family: Inter, monospace;
+    margin-bottom: 0;
+    padding-right: 0;
+  }
+
+  .first-see-project-button {
+    display: none;
+  }
+
+  .first-see-project-button-desktop {
+    display: flex;
+    width: 120px;
+    padding: 10px;
+    background-color: #ff6b00;
+    border: 0;
+    height: 50px;
+    color: #fff;
+    font-family: Inter, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .multi-post-div {
+    align-items: flex-start;
+    margin-left: 45px;
+    width: 450px;
+  }
+
+  .mobile-backdrop {
+    display: none;
+    margin: 10px;
+  }
+
+  .project-2 {
+    width: 300px;
+    margin-bottom: 0;
+    height: 421px;
+    margin-top: 20px;
+  }
+
+  .project-image {
+    margin: 15px;
+    margin-left: 0;
+    width: 300px;
+    height: 400px;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-img-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+  }
+
+  .desktop-backdrop {
+    display: flex;
+    position: relative;
+  }
+
+  .floating {
+    display: none;
+  }
+
+  .desktop-floating {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    position: absolute;
+    color: #fff;
+    margin-top: 50px;
+  }
+
+  .individual-project-title {
+    display: flex;
+    font-family: 'Crete Round', monospace;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 290px;
+  }
+
+  .individual-project-title-website {
+    margin-top: 88px;
+  }
+
+  .individual-project-description {
+    display: flex;
+    font-family: Inter, monospace;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-top: 0;
+    line-height: 24px;
+    width: 280px;
+  }
+
+  .project-1-buttons {
+    width: 390;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
 }

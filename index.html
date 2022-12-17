@@ -8,22 +8,29 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap'); </style>
     <style> @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300&display=swap'); </style>
     <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
-    <link rel="stylesheet" href="headline-section.css">
-    <link rel="stylesheet" href="work-section.css">
-    <link rel="stylesheet" href="about-me.css">
-    <link rel="stylesheet" href="footnote.css">
+    <link rel="stylesheet" href="styles/headline-section.css">
+    <link rel="stylesheet" href="styles/work-section.css">
+    <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/footnote.css">
+    <link rel="stylesheet" href="styles/general.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="mobile-view">
+    <main>
+        <section class="headline-section">
             <nav class="mobile-nav">
                 <div class="display-nav">
                     <a href=""><p id="portfolio-name">John Doe</p></a>
-                    <img id="union-icon" src="images/Union.png" alt="hamburger">
+                    <a href=""><img id="union-icon" src="images/Union.png" alt="hamburger"></a>
+                    <ul class="nav-ul">
+                        <li class="nav-items"><a class="nav-items-a" href="#">Portfolio</a></li>
+                        <li class="nav-items"><a class="nav-items-a" href="#">About</a></li>
+                        <li class="nav-items"><a class="nav-items-a" href="#">Contact</a></li>
+                        <li class="nav-items"><a class="nav-items-a" href=""><img src="images/mail-icon.png" alt="mail-icon"></a></li>
+                    </ul>
                 </div>
             </nav>
-            <section class="headline-section">
+            <div class="mobile-headline-intro-div">
                 <div class="name-div">
                     <h1 class="name">Here There.</h1>
                     <h1 class="name">I am Alex</h1>
@@ -40,14 +47,40 @@
                     <li><a href="#"><img class="icon-interactions" src="images/hand.png" alt="hand"></li></a>
                     <li><a href="#"><img class="icon-interactions" src="images/twitter.png" alt="twitter bird"></li></a>
                     <li><a href="#"><img class="icon-interactions" src="images/Vector.png" alt="M-sign"></li></a>
-                </ul> 
-            </section>
-            <section class="work">
-                <div>
-                    <div class="recent-work">
+                </ul>
+            </div> 
+
+            <!-- Desktop headline-section  -->
+            <div class="desktop-headline-intro-div">
+                <ul class="social-ul">
+                    <li class="social-li"><a href="#"><img src="images/github.png" alt="github-logo"></a></li>
+                    <li class="social-li"><a href="#"><img src="images/linkedin.png" alt="linkedin-logo"></a></li>
+                    <li class="social-li"><a href="#"><img src="images/hand.png" alt="hand-logo"></a></li>
+                    <li class="social-li"><a href="#"><img src="images/twitter.png" alt="twitter-logo"></a></li>
+                    <li class="social-li"><a href="#"><img src="images/Vector.png" alt="vector-logo"></a></li>
+                </ul>
+                <div class="developer-intro">
+                    <h1 class="developer-name">Hey There. <br> I'm Alex </h1>
+                    <p class="developer-job">I'm a Software Developer</p>
+                    <p class="developer-description">I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- project-work-section -->
+        <section class="work">
+            <div class="recent-work-div">
+                <div class="recent-work">
+                    <div class="recent-work-title-div">
                         <h2 id="work-intro">My Recent Work</h2>
-                        <a id="yoga-image" href=""><img src="images/Img Placeholder-1.png" alt="yoga girl"></a>
+                        <a id="yoga-image-a" href=""><img id="yoga-image" src="images/Img Placeholder-1.png" alt="yoga girl"></a>
+                        <p id="recent-work-line"></p>
                     </div>
+                </div>
+                <div class="multi-post-major-div">
+                    <a id="yoga-image-a" href=""><img id="desktop-yoga-image" src="images/yoga-girl.png" alt="yoga girl"></a>
                     <div class="multi-post-div">
                         <h2 id="multi-post-title" >Multi-Post Stories</h2>
                         <div id="work-description">
@@ -61,106 +94,25 @@
                                 <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
                             </ul>
                         </div>
+                        <a href="#"><button class="first-see-project-button-desktop">See Project</button></a>
                     </div>
                     <a href="#"><button class="first-see-project-button">See Project</button></a>
                 </div>
-                <div class="project-1">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
-                    <div class="floating">
-                        <div>
-                            <h3 class="project-title">Profesional Art Printing Data</h3>
-                        </div>
-                        <div>
-                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-                        </div>
-                        <ul class="project-1-buttons-ul">
-                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
-                        </ul>
-                    </div>
-                    <div class="see-project-div">
-                        <a href="#"><button class="see-project-button">See Project</button></a>
-                    </div>
-                </div>
-                <div class="project-1">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
-                    <div class="floating">
-                        <div>
-                            <h3 class="project-title">Profesional Art Printing Data</h3>
-                        </div>
-                        <div>
-                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-                        </div>
-                        <ul class="project-1-buttons-ul">
-                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
-                        </ul>
-                    </div>
-                    <div class="see-project-div">
-                        <a href=""><button class="see-project-button">See Project</button></a>
-                    </div>
-                </div>
-                <div class="project-1">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
-                    <div class="floating">
-                        <div>
-                            <h3 class="project-title">Profesional Art Printing Data</h3>
-                        </div>
-                        <div>
-                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-                        </div>
-                        <ul class="project-1-buttons-ul">
-                            <a href="#"><button class="project-1-buttons">html</button></a>
-                            <a href="#"><button class="project-1-buttons" >bootstrap</button></a>
-                            <a href="#"><button class="project-1-buttons">Ruby</button></a>
-                        </ul>
-                    </div>
-                    <div class="see-project-div">
-                        <a href=""><button class="see-project-button">See Project</button></a>
-                    </div>
-                </div>
-                <div class="project-1">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
-                    <div class="floating">
-                        <div>
-                            <h3 class="project-title">Profesional Art Printing Data</h3>
-                        </div>
-                        <div>
-                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-                        </div>
-                        <ul class="project-1-buttons-ul">
-                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
-                        </ul>
-                    </div>
-                    <div class="see-project-div">
-                        <a href="#"><button class="see-project-button">See Project</button></a>
-                    </div>
-                </div>
-                <div class="project-1">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
-                    <div class="floating">
-                        <div>
-                            <h3 class="project-title">Profesional Art Printing Data</h3>
-                        </div>
-                        <div>
-                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
-                        </div>
-                        <ul class="project-1-buttons-ul">
-                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
-                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
-                        </ul>
-                    </div>
-                    <div class="see-project-div">
-                        <a href=""><button class="see-project-button">See Project</button></a>
-                    </div>
-                </div>
+            </div>
+            
+
+
+            
+            <div class="desktop-project-div">
                 <div class="project-1 last-project">
-                    <img src="images/Img Placeholder-2.png" alt="printed-magazine">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/Prof-printing2.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
                     <div class="floating">
                         <div>
                             <h3 class="project-title">Profesional Art Printing Data</h3>
@@ -174,12 +126,242 @@
                             <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
                         </ul>
                     </div>
+                    <div class="desktop-floating">
+                        <div>
+                            <h4 class="individual-project-title ">Professional Art <br> Printing Data More</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
                     <div class="see-project-div">
                         <a href=""><button class="see-project-button">See Project</button></a>
                     </div>
                 </div>
-            </section>
-            <section class="about-me">
+
+
+
+
+                
+                <div class="project-1">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/availability.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
+                    <div class="floating">
+                        <div>
+                            <h3 class="project-title">Profesional Art Printing Data</h3>
+                        </div>
+                        <div>
+                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Oppa</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="desktop-floating"> 
+                        <div>
+                            <h4 class="individual-project-title">Data Dashboard <br> Healthcare</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="see-project-div">
+                        <a href=""><button class="see-project-button">See Project</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-1">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/Website-portfolio.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
+                    <div class="floating">
+                        <div>
+                            <h3 class="project-title">Profesional Art Printing Data</h3>
+                        </div>
+                        <div>
+                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <a href="#"><button class="project-1-buttons">html</button></a>
+                            <a href="#"><button class="project-1-buttons" >bootstrap</button></a>
+                            <a href="#"><button class="project-1-buttons">Ruby</button></a>
+                        </ul>
+                    </div>
+                    <div class="desktop-floating">
+                        <div>
+                            <h4 class="individual-project-title individual-project-title-website">Website Portfolio</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="see-project-div">
+                        <a href=""><button class="see-project-button">See Project</button></a>
+                    </div>
+                </div>
+
+
+                <div class="project-1">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/Prof-printing2.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
+                    <div class="floating">
+                        <div>
+                            <h3 class="project-title">Profesional Art Printing Data</h3>
+                        </div>
+                        <div>
+                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="desktop-floating">
+                        
+                        <div>
+                            <h4 class="individual-project-title">Professional Art <br> Printing Data More</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="see-project-div">
+                        <a href="#"><button class="see-project-button">See Project</button></a>
+                    </div>
+                </div>
+
+
+
+                <div class="project-1">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/availability.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
+                    <div class="floating">
+                        <div>
+                            <h3 class="project-title">Profesional Art Printing Data</h3>
+                        </div>
+                        <div>
+                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="desktop-floating">
+                        <div>
+                            <h4 class="individual-project-title">Data Dashboard <br> Healthcare</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="see-project-div">
+                        <a href=""><button class="see-project-button">See Project</button></a>
+                    </div>
+                </div>
+
+
+
+                <div class="project-1 last-project">
+                    <div class="visible-project-div">
+                        <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
+                        <img class="project-image desktop-backdrop" src="images/Website-portfolio.png" alt="background-image">
+                    </div>
+                    <div class="div-for-image-hovering">
+                        <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
+                        <button class="hover-button">See Project</button>
+                    </div>
+                    <div class="floating">
+                        <div>
+                            <h3 class="project-title">Profesional Art Printing Data</h3>
+                        </div>
+                        <div>
+                            <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">bootstrap</button></a></li>
+                            <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="desktop-floating">
+                        <div>
+                            <h4 class="individual-project-title  individual-project-title-website">Website Portfolio</h4>
+                        </div>
+                        <div>
+                            <p class="individual-project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        </div>
+                        <ul class="project-1-buttons-ul">
+                            <li><a href="#"><button class="project-1-buttons">html</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons" >bootstrap</button></a></li>
+                            <li><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
+                        </ul>
+                    </div>
+                    <div class="see-project-div">
+                        <a href=""><button class="see-project-button last-mobile-project-tile">See Project</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="about-me">
+            <div class="about-me-desktop-div">
                 <div class="about-div">
                     <h2 class="about-me-title">About Me</h2>
                 </div>
@@ -189,57 +371,60 @@
                         <button class="get-resume-button">Get My Resume</button>
                     </div>
                 </div>
-                <p class="line3"></p>
-                <ul class="language-framework-skills">
-                    <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 55 (1).png" alt="">Languages
-                        <ul class="children-of-language-framework-skills-ul">
-                            <li class="children-of-language-framework-skills-li">Javacript</li>
-                            <li class="children-of-language-framework-skills-li">Ruby</li>
-                            <li class="children-of-language-framework-skills-li">Html</li>
-                            <li class="children-of-language-framework-skills-li">Css</li>
-                        </ul>
-                    </li>
-                    <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 56 (1).png" alt="">Frameworks
-                        <ul class="children-of-language-framework-skills-ul">
-                            <li class="children-of-framework-li">Bootstrap</li>
-                            <li class="children-of-framework-li">Ruby on Rails</li>
-                            <li class="children-of-framework-li">RSPec</li>
-                            <li class="children-of-framework-li">CapyBara</li>
-                            <li class="children-of-framework-li">Selenium</li>
-                        </ul>
-                    </li>
-                    <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 57 (1).png" alt="">Skills
-                        <ul class="children-of-language-framework-skills-ul">
-                            <li class="children-of-language-framework-skills-li" >Codekit</li>
-                            <li class="children-of-language-framework-skills-li">GitHub</li>
-                            <li class="children-of-language-framework-skills-li">Codepen</li>
-                            <li class="children-of-language-framework-skills-li">Gitlab</li>
-                            <li class="children-of-language-framework-skills-li">Terminal</li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section class="footnote">
+            </div>
+            <p class="line-0"></p>
+            <ul class="language-framework-skills">
+                <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 55 (1).png" alt="">Languages
+                    <ul class="children-of-language-framework-skills-ul">
+                        <li class="children-of-language-framework-skills-li">Javacript</li>
+                        <li class="children-of-language-framework-skills-li">Ruby</li>
+                        <li class="children-of-language-framework-skills-li">Html</li>
+                        <li class="children-of-language-framework-skills-li">Css</li>
+                    </ul>
+                </li>
+                <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 56 (1).png" alt="">Frameworks
+                    <ul class="children-of-language-framework-skills-ul">
+                        <li class="children-of-framework-li children-of-language-framework-skills-li">Bootstrap</li>
+                        <li class="children-of-framework-li children-of-language-framework-skills-li">Ruby on Rails</li>
+                        <li class="children-of-framework-li children-of-language-framework-skills-li">RSPec</li>
+                        <li class="children-of-framework-li children-of-language-framework-skills-li">CapyBara</li>
+                        <li class="children-of-framework-li children-of-language-framework-skills-li">Selenium</li>
+                    </ul>
+                </li>
+                <li class="individual-language-framework-skills-li"><img class="frameworks-image" img src="images/Rectangle 57 (1).png" alt="">Skills
+                    <ul class="children-of-language-framework-skills-ul">
+                        <li class="children-of-language-framework-skills-li" >Codekit</li>
+                        <li class="children-of-language-framework-skills-li">GitHub</li>
+                        <li class="children-of-language-framework-skills-li">Codepen</li>
+                        <li class="children-of-language-framework-skills-li">Gitlab</li>
+                        <li class="children-of-language-framework-skills-li">Terminal</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="footnote">
+            <div class="brief-note-and-form-div">
                 <div class="brief-note-div">
                     <h3 class="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
+                    <h3 class="brief-note-desktop">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
                 </div>
                 <form action="https://formspree.io/f/meqdypvw" method="post" class="form-container">
-                  <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
-                  <input class="input-individuals" type="email" placeholder="Email Address" name="email" required>
-                  <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
-                  <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
+                    <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
+                    <input class="input-individuals" type="email" placeholder="Email Address" name="email" required>
+                    <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+                    <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
                 </form>
-                <p class="line1">line</p>
-                <div class="footnote-socials">
-                    <a href="#"><img src="images/github.png" alt="github"></a>
-                    <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="images/hand.png" alt="hand"></a>
-                    <a href="#"><img src="images/twitter.png" alt="twitter"></a>
-                    <a href="#"><img src="images/Vector.png" alt="Vector"></a>
-                </div>
-                <p class="line2">line</p>
-            </section>
-        </div>
-    </div>
+            </div>
+            <p class="line1">line</p>
+            <div class="footnote-socials">
+                <a href="#"><img src="images/github.png" alt="github"></a>
+                <a href="#"><img src="images/linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="images/hand.png" alt="hand"></a>
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="images/Vector.png" alt="Vector"></a>
+            </div>
+            <p class="line2">line</p>
+        </section>
+    </main>
 </body>
 </html>
