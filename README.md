@@ -65,7 +65,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://coderacheal.github.io/)
 
 Please note that this link is not yet available
 
@@ -73,10 +73,6 @@ Please note that this link is not yet available
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Install npm and ignore all node_modules
-> Add appropriate linter to your code directory
-> Have a basic understanding of flex-box, and grid
 
 To get a local copy up and running, follow these steps.
 
@@ -118,7 +114,7 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-How to run test will be added in a future update
+npx stylelint "**/*.{css,scss}" in your terminal
 
 
 ### Deployment
@@ -137,8 +133,7 @@ A web browser
 
 👤 **Racheal Appiah-kubi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@githubhandle](https://github.com/coderacheal)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 
