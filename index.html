@@ -14,23 +14,29 @@
     <link rel="stylesheet" href="styles/footnote.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/animations.css">
+    <script src="script.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
     <main>
-        <section class="headline-section">
+        <header>
             <nav class="mobile-nav">
-                <div class="display-nav">
-                    <a href=""><p id="portfolio-name">John Doe</p></a>
-                    <a href=""><img id="union-icon" src="images/Union.png" alt="hamburger"></a>
-                    <ul class="nav-ul">
-                        <li class="nav-items"><a class="nav-items-a" href="#">Portfolio</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href="#">About</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href="#">Contact</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href=""><img src="images/mail-icon.png" alt="mail-icon"></a></li>
-                    </ul>
+                <a href=""><p id="portfolio-name">John Doe</p></a>
+                <ul class="nav-ul">
+                    <li class="nav-items"><a class="nav-items-a" href="#work">Portfolio</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#about-me">About</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#contact-me">Contact</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#contact-me"><img src="images/mail-icon.png" alt="mail-icon"></a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </nav>
+        </header>
+        <section class="headline-section">
+            
             <div class="mobile-headline-intro-div">
                 <div class="name-div">
                     <h1 class="name">Here There.</h1>
@@ -105,7 +111,7 @@
 
             
             <div class="desktop-project-div">
-                <div class="project-1 last-project">
+                <div id="work" class="project-1 last-project">
                     <div class="visible-project-div">
                         <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
                         <img class="project-image desktop-backdrop" src="images/Prof-printing2.png" alt="background-image">
@@ -361,7 +367,7 @@
 
 
 
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="about-me-desktop-div">
                 <div class="about-div">
                     <h2 class="about-me-title">About Me</h2>
@@ -403,7 +409,7 @@
                 </li>
             </ul>
         </section>
-        <section class="footnote">
+        <section id='contact-me' class="footnote">
             <div class="brief-note-and-form-div">
                 <div class="brief-note-div">
                     <h3 class="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
