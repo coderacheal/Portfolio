@@ -51,14 +51,14 @@
   /* width: 100%; */
 }
 
-#union-icon {
+.union-icon {
   /* margin-right: 25px; */
   height: 20px;
   position: absolute;
   right: 50px;
   display: flex;
   /* margin-bottom: 10px; */
-  bottom: 190px;
+  bottom: 15px;
 }
 
 .navbar-links {
