@@ -5,20 +5,28 @@
   align-items: center;
   margin-top: 0;
   height: 900px;
+  width: 100%;
 }
 
 .brief-note-div {
   align-self: center;
-  width: 330px;
+  width: 100%;
   margin-left: 60px;
 }
 
 .brief-note {
   font-family: Inter, monospace;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 14px;
+  line-height: 36px;
   text-align: center;
   color: #172b4d;
+  margin-left: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.brief-note-and-form-div {
+  width: 100%;
 }
 
 .brief-note-desktop {
@@ -87,7 +95,7 @@ button {
 .form-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 360px;
   margin-left: 50px;
 }
 
@@ -145,7 +153,7 @@ button {
   .brief-note-and-form-div {
     display: flex;
     justify-content: center;
-    width: 768px;
+    width: 100%;
   }
 
   .line1 {

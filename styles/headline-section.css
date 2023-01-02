@@ -1,22 +1,88 @@
-.mobile-nav {
+.nav {
   height: 72px;
-  background-color: #3e3c3c;
-  position: fixed;
-  width: 400px;
+  background-color: red;
+  position: relative;
+  width: 360px;
   top: 0;
-  z-index: 3;
+  /* z-index: 3; */
 }
 
 .display-nav {
+  /* height: 72px; */
+  background-color: red;
+  position: fixed;
+  /* width: 100%; */
+  top: 0;
+  /* color: white; */
+  z-index: 3;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  width: 360px;
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.navbar-links {
+  width: 100%;
+}
+.navbar-links:active {
+  display: flex;
+}
+.nav-items:hover {
+  background-color: gray;
+}
+
+.nav-items ,.nav-items-a{
+  margin: 0;
+}
+
+.navbar-links li {
+  text-align: center;
+  padding: 10px;
+}
+.navbar-links li a {
+  color: white;
+  /* margin: 10px; */
+  padding: 20px;
+  /* width: 100%; */
 }
 
 #union-icon {
-  margin-top: 15px;
-  margin-right: 45px;
-  height: 15px;
+  /* margin-right: 25px; */
+  height: 20px;
+  position: absolute;
+  right: 50px;
+  display: flex;
+  /* margin-bottom: 10px; */
+  bottom: 190px;
 }
+
+.navbar-links {
+  display: none;
+  margin: 0;
+}
+
+/* Desktop Menu  */
+.nav-ul {
+  list-style-type: none;
+  /* display: none;  */
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+  /* color: white; */
+  padding: 10px;
+  margin: 0;
+  /* margin-left: 20px; */
+}
+
+/* .display-nav {
+  display: flex;
+  flex-direction: column;
+} */
 
 #portfolio-name {
   font-weight: bold;
@@ -26,14 +92,14 @@
   text-align: justify;
   align-items: center;
   padding-left: 25px;
-  animation-name: spin;
-  animation-duration: 4s;
+  /* animation-name: spin;
+  animation-duration: 4s; */
 }
 
-@keyframes spin {
+/* @keyframes spin {
   from { transform: rotate(-0deg); }
   to { transform: rotate(360deg); }
-}
+} */
 
 a {
   text-decoration: none;
@@ -44,6 +110,7 @@ p {
 }
 
 .headline-section {
+  width: 360px;
   height: 800px;
   background-color: #1c1a19;
   background-image: url(/images/mobile-side-image.png);
@@ -129,16 +196,6 @@ p {
   transform: scale(1.5, 1.5);
 }
 
-/* Desktop Section  */
-.nav-ul {
-  list-style-type: none;
-  display: none;
-  vertical-align: center;
-  color: white;
-  padding: 10px;
-  margin-left: 20px;
-}
-
 .desktop-headline-intro-div {
   display: none;
 }
@@ -147,12 +204,13 @@ p {
   opacity: 0.8;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 375px) {
   .mobile-nav {
     width: 100%;
   }
 
   .display-nav {
+    display: flex;
     width: 100%;
   }
 
@@ -164,12 +222,12 @@ p {
 @media (min-width: 768px) {
   .mobile-nav {
     width: 100%;
-    height: 72px;
+    /* height: 72px;/ */
   }
 
   .display-nav {
     width: 100%;
-    height: 72px;
+    /* height: 72px; */
   }
 
   #union-icon {
