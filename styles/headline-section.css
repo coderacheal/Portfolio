@@ -8,15 +8,35 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  width: 100%;
+  width: 400px;
   top: 0;
   z-index: 4;
 }
 
 .hamburger {
   cursor: pointer;
-  margin-right: 30px;
-  transition: transform;
+  /* margin-right: 30px; */
+  /* transition: transform; */
+  
+  /* transition: transform; */
+}
+
+.hamburger-X {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-X .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  /* transition-duration: 10s; */
+}
+
+.hamburger-X .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger-X .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .bar {
@@ -26,7 +46,7 @@ header {
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: all ease-in-out;
   background-color: white;
   border-radius: 10px;
   margin-right: 30px;
@@ -36,8 +56,21 @@ header {
   margin-top: 20px;
 }
 
+/* .hamburger:hover .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger:hover .bar:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger:hover .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+} */
+
 .hamburger:active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  /* transition-duration: 10s; */
 }
 
 .hamburger:active .bar:nth-child(2){
@@ -50,7 +83,7 @@ header {
 
 .nav-ul {
   position: fixed;
-  left: -110%;
+  /* left: -110%; */
   top: 50px;
   left: 0;
   gap: 0;
@@ -64,11 +97,12 @@ header {
   margin: 0;
   width: 100%;
   align-items: center;
-  transition: 1s;
+  /* transition: 1s; */
   text-align: center;
 }
 
 .nav-ul:active {
+  left: 0;
   display: flex;
 }
 
@@ -256,6 +290,10 @@ p {
   .hamburger {
     display: none;
   }
+.hamburger-X {
+    display: none;
+  }
+  
 
   #portfolio-name {
     margin-left: 20px;
@@ -383,7 +421,10 @@ p {
     width: 100%;
   }
 
-  #union-icon {
+  #hamburger {
+    display: none;
+  }
+  .hamburger-X {
     display: none;
   }
 
@@ -516,6 +557,13 @@ p {
 
   .display-nav {
     width: 100%;
+  }
+
+  #hamburger {
+    display: none;
+  }
+  .hamburger-X {
+    display: none;
   }
 
   /* #union-icon {
