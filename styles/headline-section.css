@@ -64,6 +64,7 @@ header {
 }
 
 .nav-ul {
+  display: none;
   position: fixed;
   top: 50px;
   left: 0;
@@ -520,7 +521,6 @@ p {
 
 @media (min-width: 1440px) {
   header {
-    /* background-color: red; */
     height: 72px;
   }
 
