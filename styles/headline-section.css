@@ -1,21 +1,157 @@
-.mobile-nav {
+header {
   height: 72px;
   background-color: #3e3c3c;
-  position: fixed;
-  width: 400px;
-  top: 0;
-  z-index: 3;
 }
 
-.display-nav {
+.mobile-nav {
+  background-color: #3e3c3c;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 375px;
+  top: 0;
+  z-index: 4;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  top: 10px;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all ease-in-out;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.hamburger-X {
+  cursor: pointer;
+  display: none;
+}
+
+.bar:nth-child(1) {
+  margin-top: 20px;
+}
+
+.hamburger-X .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-X .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-X .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger:active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger:active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger:active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-ul {
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  gap: 0;
+  flex-direction: column;
+  background-color: #3e3c3c;
+  list-style-type: none;
+  vertical-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-ul:active {
+  left: 0;
+  display: flex;
+}
+
+.portfolio-name-and-union-icon {
   display: flex;
   justify-content: space-between;
 }
 
-#union-icon {
-  margin-top: 15px;
-  margin-right: 45px;
-  height: 15px;
+.nav-items {
+  width: 90%;
+  padding: 10px;
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: #6f6c6b;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 85%;
+  border-bottom-width: 85%;
+}
+
+.nav-items:nth-child(4) {
+  display: none;
+}
+
+.space-white {
+  background-color: white;
+  width: 100%;
+  height: 85px;
+  margin-left: -15px;
+  margin-top: 430px;
+}
+
+.bottom-toggle-line {
+  height: 4px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  justify-content: center;
+  margin-left: 38%;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.nav-items:hover {
+  background-color: #555;
+}
+
+.nav-items-a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Inter, monospace;
+  font-weight: bold;
+  line-height: 44px;
+  color: #fff5e1;
+  font-size: 32px;
+  padding: 10px;
+  margin: 0;
+  transform: 0.7s ease;
+}
+
+.nav-items-a:hover {
+  color: rgb(246, 144, 28);
+}
+
+.desktop-headline-intro-div {
+  display: none;
 }
 
 #portfolio-name {
@@ -28,11 +164,7 @@
   padding-left: 25px;
   animation-name: spin;
   animation-duration: 4s;
-}
-
-@keyframes spin {
-  from { transform: rotate(-0deg); }
-  to { transform: rotate(360deg); }
+  width: 100px;
 }
 
 a {
@@ -49,6 +181,7 @@ p {
   background-image: url(/images/mobile-side-image.png);
   background-repeat: no-repeat;
   background-position: right bottom;
+  margin-top: 0;
 }
 
 .mobile-headline-intro-div {
@@ -129,25 +262,16 @@ p {
   transform: scale(1.5, 1.5);
 }
 
-/* Desktop Section  */
-.nav-ul {
-  list-style-type: none;
-  display: none;
-  vertical-align: center;
-  color: white;
-  padding: 10px;
-  margin-left: 20px;
-}
-
-.desktop-headline-intro-div {
-  display: none;
-}
-
 .social-li:hover {
   opacity: 0.8;
 }
 
 @media (min-width: 400px) {
+  header {
+    background-color: #3e3c3c;
+    height: 72px;
+  }
+
   .mobile-nav {
     width: 100%;
   }
@@ -162,17 +286,22 @@ p {
 }
 
 @media (min-width: 768px) {
+  header {
+    background-color: #3e3c3c;
+    height: 72px;
+  }
+
   .mobile-nav {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 72px;
   }
 
-  .display-nav {
-    width: 100%;
-    height: 72px;
+  .hamburger {
+    display: none;
   }
 
-  #union-icon {
+  .hamburger-X {
     display: none;
   }
 
@@ -186,19 +315,30 @@ p {
   }
 
   .nav-ul {
+    position: static;
     display: flex;
     padding: 0;
-    margin-right: 80px;
-    height: 72px;
-    margin-top: 0;
+    right: 0;
+    flex-direction: row;
+    justify-items: center;
+    width: 48%;
+  }
+
+  .space-white {
+    display: none;
   }
 
   .nav-items {
-    margin-left: 25px;
     font-family: Inter, monospace;
     font-size: 15px;
     color: white;
     text-decoration: none;
+    padding: 10px;
+    border: 0;
+  }
+
+  .nav-items:nth-child(4) {
+    display: flex;
   }
 
   .nav-items-a {
@@ -218,7 +358,6 @@ p {
 
   .headline-section {
     display: flex;
-    margin-top: 72px;
     height: 870px;
     background-image: url('/images/Illustration-header@1x.png');
     background-repeat: no-repeat;
@@ -287,6 +426,11 @@ p {
 }
 
 @media (min-width: 1024px) {
+  header {
+    background-color: #3e3c3c;
+    height: 72px;
+  }
+
   .mobile-nav {
     width: 100%;
   }
@@ -295,7 +439,11 @@ p {
     width: 100%;
   }
 
-  #union-icon {
+  #hamburger {
+    display: none;
+  }
+
+  .hamburger-X {
     display: none;
   }
 
@@ -314,6 +462,7 @@ p {
     margin-right: 80px;
     height: 72px;
     margin-top: 0;
+    width: 45%;
   }
 
   .nav-items {
@@ -332,8 +481,8 @@ p {
     font-family: Inter, monospace;
     font-size: 18px;
     margin-top: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .nav-items-a:hover {
@@ -342,7 +491,6 @@ p {
 
   .headline-section {
     display: flex;
-    margin-top: 72px;
     height: 870px;
     background-image: url('/images/Illustration-header@1x.png');
     background-repeat: no-repeat;
@@ -416,6 +564,10 @@ p {
 }
 
 @media (min-width: 1440px) {
+  header {
+    height: 72px;
+  }
+
   .mobile-nav {
     width: 100%;
   }
@@ -424,7 +576,11 @@ p {
     width: 100%;
   }
 
-  #union-icon {
+  #hamburger {
+    display: none;
+  }
+
+  .hamburger-X {
     display: none;
   }
 
@@ -461,8 +617,8 @@ p {
     font-family: Inter, monospace;
     font-size: 18px;
     margin-top: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
   }
 
   .nav-items-a:hover {
@@ -471,7 +627,6 @@ p {
 
   .headline-section {
     display: flex;
-    margin-top: 72px;
     height: 870px;
     background-image: url('/images/Illustration-header@1x.png');
     background-repeat: no-repeat;

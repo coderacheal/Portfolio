@@ -14,23 +14,39 @@
     <link rel="stylesheet" href="styles/footnote.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/animations.css">
+    <script src="script.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
     <main>
-        <section class="headline-section">
+        <header>
             <nav class="mobile-nav">
-                <div class="display-nav">
-                    <a href=""><p id="portfolio-name">John Doe</p></a>
-                    <a href=""><img id="union-icon" src="images/Union.png" alt="hamburger"></a>
-                    <ul class="nav-ul">
-                        <li class="nav-items"><a class="nav-items-a" href="#">Portfolio</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href="#">About</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href="#">Contact</a></li>
-                        <li class="nav-items"><a class="nav-items-a" href=""><img src="images/mail-icon.png" alt="mail-icon"></a></li>
-                    </ul>
+                <a href=""><p id="portfolio-name">John Doe</p></a>
+                <ul class="nav-ul">
+                    <li class="nav-items"><a class="nav-items-a" href="#button-div">Portfolio</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#about-me">About</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#contact-me">Contact</a></li>
+                    <li class="nav-items"><a class="nav-items-a" href="#contact-me"><img src="images/mail-icon.png" alt="mail-icon"></a></li>
+                    <span class="space-white">
+                        <div class="bottom-toggle-line"></div>
+                    </span>
+                </ul>
+                
+                
+                <div class="hamburger ">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="hamburger-X">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
             </nav>
+        </header>
+        <section class="headline-section">
+            
             <div class="mobile-headline-intro-div">
                 <div class="name-div">
                     <h1 class="name">Here There.</h1>
@@ -87,7 +103,7 @@
                         <div id="work-description">
                             <p id="work-font">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                         </div>
-                        <div class="button-div">
+                        <div class="button-div" id="button-div">
                             <ul class="button-list">
                                 <li><a href="#"><button class="multi-post-button">css</button></a></li>
                                 <li><a href="#"><button class="multi-post-button">html</button></a></li>
@@ -95,7 +111,7 @@
                                 <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
                             </ul>
                         </div>
-                        <a href="#"><button class="first-see-project-button-desktop">See Project</button></a>
+                        <a href="#" id="show-projects" ><button class="first-see-project-button-desktop">See Project</button></a>
                     </div>
                     <a href="#"><button class="first-see-project-button">See Project</button></a>
                 </div>
@@ -104,8 +120,8 @@
 
 
             
-            <div class="desktop-project-div">
-                <div class="project-1 last-project">
+            <div class="desktop-project-div" id="desktop-project-div">
+                <div id="work" class="project-1 last-project">
                     <div class="visible-project-div">
                         <img class="mobile-backdrop" src="images/Img Placeholder-2.png" alt="printed-magazine">
                         <img class="project-image desktop-backdrop" src="images/Prof-printing2.png" alt="background-image">
@@ -361,7 +377,7 @@
 
 
 
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="about-me-desktop-div">
                 <div class="about-div">
                     <h2 class="about-me-title">About Me</h2>
@@ -403,10 +419,10 @@
                 </li>
             </ul>
         </section>
-        <section class="footnote">
+        <section id='contact-me' class="footnote">
             <div class="brief-note-and-form-div">
                 <div class="brief-note-div">
-                    <h3 class="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
+                    <h3 class="brief-note" id="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
                     <h3 class="brief-note-desktop">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
                 </div>
                 <form action="https://formspree.io/f/meqdypvw" method="post" class="form-container">
