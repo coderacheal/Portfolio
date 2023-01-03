@@ -287,6 +287,16 @@
   color: white;
 }
 
+.project-pop-up {
+  position: relative;
+  background-color: coral;
+  width: 90%;
+  height: 600px;
+  /* opacity: 0; */
+  /* display: none; */
+  /* position: fixed; */
+}
+
 @media (min-width: 768px) {
   .work {
     display: flex;
