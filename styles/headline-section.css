@@ -28,7 +28,6 @@ header {
 
 .hamburger-X .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  /* transition-duration: 10s; */
 }
 
 .hamburger-X .bar:nth-child(2){
