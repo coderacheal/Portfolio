@@ -35,6 +35,10 @@ header {
   display: none;
 }
 
+.bar:nth-child(1) {
+  margin-top: 20px;
+}
+
 .hamburger-X .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -45,10 +49,6 @@ header {
 
 .hamburger-X .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.bar:nth-child(1) {
-  margin-top: 20px;
 }
 
 .hamburger:active .bar:nth-child(1) {
@@ -71,7 +71,6 @@ header {
   flex-direction: column;
   background-color: #3e3c3c;
   list-style-type: none;
-  /* display: none; */
   vertical-align: center;
   color: white;
   padding: 10px;
@@ -536,14 +535,10 @@ p {
   #hamburger {
     display: none;
   }
-  
+
   .hamburger-X {
     display: none;
   }
-
-  /* #union-icon {
-    display: none;
-  } */
 
   #portfolio-name {
     margin-left: 20px;
