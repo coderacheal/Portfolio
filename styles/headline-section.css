@@ -17,24 +17,6 @@ header {
   cursor: pointer;
 }
 
-.hamburger-X {
-  cursor: pointer;
-  display: none;
-}
-
-.hamburger-X .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-  /* transition-duration: 10s; */
-}
-
-.hamburger-X .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-X .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
 .bar {
   display: block;
   top: 10px;
@@ -46,6 +28,23 @@ header {
   background-color: white;
   border-radius: 10px;
   margin-right: 30px;
+}
+
+.hamburger-X {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-X .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-X .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-X .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .bar:nth-child(1) {
