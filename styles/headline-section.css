@@ -1,5 +1,6 @@
 header {
   height: 72px;
+  background-color: #3e3c3c;
 }
 
 .mobile-nav {
@@ -15,6 +16,7 @@ header {
 .hamburger {
   cursor: pointer;
   margin-right: 30px;
+  transition: 
 }
 
 .bar {
@@ -34,7 +36,6 @@ header {
   margin-top: 20px;
 }
 
-
 .hamburger:active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
@@ -47,15 +48,12 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-
-/* Desktop Section  */
 .nav-ul {
   position: fixed;
-  /* left: -110%; */
+  left: -110%;
   top: 50px;
   left: 0;
   gap: 0;
-  /* display: flex; */
   flex-direction: column;
   background-color: #3e3c3c;
   list-style-type: none;
@@ -66,8 +64,7 @@ header {
   margin: 0;
   width: 100%;
   align-items: center;
-  transition: 0.3s;
-  
+  transition: 1s;
   text-align: center;
 }
 
