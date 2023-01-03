@@ -31,6 +31,20 @@ hamburgerX.addEventListener('click', () => {
 })
 
 
+// navLinks.forEach(item => item.addEventListener("click", () {
+
+//     navUl.style.display = 'none'
+//     hamburger.classList.remove("active");
+//     hamburgerX.classList.remove("active");
+//     navUl.classList.remove('active');
+//     hamburger.style.display ='block';
+//     hamburgerX.style.display = 'none';
+// })
+
+// navLinks.forEach(item => item.addEventListener("click", () => {
+
+// })
+
 navLinks.forEach(item => item.addEventListener("click", () => {
     navUl.style.display = 'none'
     hamburger.classList.remove("active");
@@ -38,4 +52,4 @@ navLinks.forEach(item => item.addEventListener("click", () => {
     navUl.classList.remove('active');
     hamburger.style.display ='block';
     hamburgerX.style.display = 'none';
-})
+}))
