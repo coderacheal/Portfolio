@@ -9,10 +9,7 @@ if (mywidth > '200px') {
     console.log(true);
 }
 
-
 hamburger.addEventListener("click", () => {
-    
-    // const togglebtnX = hamburgerX.classList.toggle('active');
     const menuItems = navUl.classList.toggle('active');
     const togglebtn = hamburger.classList.toggle('active');
     
@@ -45,20 +42,10 @@ hamburgerX.addEventListener('click', () => {
     }
    
 })
-// hamburger.style.display ='block';
-// hamburgerX.style.display = 'none';
-// hamburger.classList.toggle('active');
-// navUl.classList.toggle('active');
-// navUl.style.display = 'flex';
-
 console.log(widthOf)
 
 
 navLinks.forEach(item => item.addEventListener("click", () => {
-    // console.log(item)
-    // const menuItems = navUl.classList.toggle('active');
-    // const togglebtn = hamburger.classList.toggle('active');
-    // const togglebtnX = hamburgerX.classList.toggle('active')
     if (widthOf.style.width <= '768px') {
         navUl.style.display = 'none'
         hamburger.classList.remove("active");
