@@ -287,6 +287,89 @@
   color: white;
 }
 
+.project-pop-up {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* align-content: flex-end; */
+  /* justify-content: center; */
+  background-color: tomato;
+  width: 95%;
+  height: 50%;
+  /* margin-left: 20px; */
+}
+
+.project-popup-floating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-see-project-button {
+  /* margin-left: 35px; */
+  width: 45%;
+  padding: 10px;
+  position: relative;
+  background-color: #ff6b00;
+  border: 0;
+  height: 50px;
+  color: #fff;
+  font-family: Inter, monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.pop-up-title-div {
+  display: flex;
+  flex-direction: row;
+}
+.popup-stack-buttons-div {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+.popup-stack-buttons-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  list-style-type: none;
+  padding: 0;
+
+}
+.pop-up-image {
+  width: 85%;
+}
+
+.popup-description-div {
+  width: 85%;
+}
+
+.popup-description {
+  color: #3c3a39;
+  font-family: Inter, monospace;
+  font-size: 16px;
+  font-weight: 600px;
+}
+
+.project-1-buttons-ul {
+  list-style-type: none;
+}
+
+.popup-see-project-button-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 85%;
+}
+
+.popup-stack-buttons {
+  padding: 15px;
+  margin-right: 7px;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  color: #3c3a39;
+}
+
 @media (min-width: 768px) {
   .work {
     display: flex;
