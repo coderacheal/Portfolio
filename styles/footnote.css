@@ -16,8 +16,8 @@
 
 .brief-note {
   font-family: Inter, monospace;
-  font-size: 14px;
-  line-height: 36px;
+  font-size: 32px;
+  line-height: 44px;
   text-align: center;
   color: #172b4d;
   margin-left: 0;
@@ -27,6 +27,10 @@
 
 .brief-note-and-form-div {
   width: 100%;
+}
+
+.brief-note-and-form-div {
+  width: 375px;
 }
 
 .brief-note-desktop {
@@ -95,7 +99,7 @@ button {
 .form-container {
   display: flex;
   flex-direction: column;
-  width: 360px;
+  width: 400px;
   margin-left: 50px;
 }
 
