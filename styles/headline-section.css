@@ -78,7 +78,6 @@ header {
   margin: 0;
   width: 100%;
   align-items: center;
-  /* text-align: center; */
   height: 100%;
 }
 
@@ -98,7 +97,7 @@ header {
   margin: 0;
   text-decoration: none;
   border: 1px solid;
-  border-color: #6F6C6B;
+  border-color: #6f6c6b;
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -140,7 +139,7 @@ header {
   font-family: Inter, monospace;
   font-weight: bold;
   line-height: 44px;
-  color: #FFF5E1;
+  color: #fff5e1;
   font-size: 32px;
   padding: 10px;
   margin: 0;
@@ -284,8 +283,6 @@ p {
   .headline-section {
     width: 100%;
   }
-
-  
 }
 
 @media (min-width: 768px) {
