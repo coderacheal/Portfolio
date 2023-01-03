@@ -16,7 +16,7 @@ header {
 .hamburger {
   cursor: pointer;
   margin-right: 30px;
-  transition: 
+  transition: transform;
 }
 
 .bar {
