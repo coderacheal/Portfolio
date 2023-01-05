@@ -249,7 +249,7 @@
   width: 327px;
   border: solid;
   border-color: rgb(117, 115, 115);
-  transition: transform 1.5s;
+  /* transition: transform 1.5s; */
 }
 
 .div-for-image-hovering:hover {
@@ -291,7 +291,7 @@
 }
 
 .project-pop-up {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-content: center;
   width: 85%;
@@ -304,6 +304,8 @@
   border: 0;
   background-color: white;
   left: 5%;
+  backdrop-filter: blur(10px);
+  /* visibility: hidden; */
 }
 
 .project-pop-up:active {
@@ -399,11 +401,18 @@
 }
 
 .popup-see-project-button-div img {
-  height: 13px;
+  height: 15px;
+}
+
+.popup-hyperlink-buttons {
+  width: 200%;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .popup-see-project-button {
-  width: 45%;
+  width: 85%;
   padding: 10px;
   position: relative;
   background-color: #ff6b00;
@@ -411,10 +420,9 @@
   height: 50px;
   color: #fff;
   font-family: Inter, monospace;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
 }
-
 
 .popup-stack-buttons {
   padding: 5px;
@@ -424,6 +432,14 @@
 }
 
 .desktop-project-pop-up {
+  display: none;
+}
+
+.desktop-project-popup-floating {
+  display: none;
+}
+
+.desktop-close-button-of-popup {
   display: none;
 }
 
@@ -705,6 +721,14 @@
   }
 
   .project-pop-up {
+    display: none;
+  }
+
+  .desktop-project-pop-up {
+    display: none;
+  }
+  
+  .desktop-project-popup-floating {
     display: none;
   }
 }
@@ -1005,6 +1029,15 @@
 
   .project-pop-up {
     display: none;
+    visibility: hidden;
+  }
+
+  .desktop-project-pop-up {
+    display: none;
+  }
+  
+  .desktop-project-popup-floating {
+    display: none;
   }
 }
 
@@ -1245,7 +1278,7 @@
   }
 
   .desktop-project-pop-up {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-content: center;
     width: 85%;
@@ -1262,6 +1295,17 @@
     display: flex;
   }
   
+  .desktop-close-button-of-popup {
+    height: 50px;
+    position: fixed;
+    top: 7%;
+    left: 85%;
+    cursor: pointer;
+    z-index: 100;
+    opacity: .01;
+
+  }
+
   .desktop-project-popup-floating {
     display: flex;
     flex-direction: column;
@@ -1323,13 +1367,13 @@
   }
 
   .desktop-pop-up-image {
-    width: 90%;
+    width: 95%;
     height: 100%;
     margin-right: 30px;
   }
   
   .desktop-popup-description-div {
-    width: 85%;
+    width: 100%;
     z-index: 5;
   }
 
@@ -1353,19 +1397,12 @@
     list-style-type: none;
   }
   
-  .desktop-popup-see-project-button-div {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    width: 85%;
-  }
-  
   .desktop-popup-see-project-button-div img {
     height: 15px;
   }
   
   .desktop-popup-see-project-button {
-    width: 45%;
+    width: 95%;
     padding: 10px;
     position: relative;
     background-color: #ff6b00;
@@ -1375,6 +1412,7 @@
     font-family: Inter, monospace;
     font-size: 17px;
     font-weight: bold;
+    margin-right: 30px;
   }
 
   .desktop-popup-stack-buttons {
@@ -1384,5 +1422,21 @@
     border: 1px solid #dfe1e6;
     color: #3c3a39;
     padding: 10px;
+  }
+
+  .desktop-popup-link {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .desktop-popup-see-project-button-div {
+    display: flex;
+    margin-top: 90px;
+    width: 200%;
+  }
+
+  .desktop-close-button-of-popup {
+    display: flex;
   }
 }

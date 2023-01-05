@@ -14,14 +14,15 @@
     <link rel="stylesheet" href="styles/footnote.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/animations.css">
-    <script src="script.js" defer></script>
+    <script src="js-files/script.js" defer></script>
+    <script src="js-files/project-popup.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <main>
+    <main id= 'close-popUp'>
         <header>
             <nav class="mobile-nav">
-                <a href=""><p id="portfolio-name">John Doe</p></a>
+                <a href="#"><p id="portfolio-name">John Doe</p></a>
                 <ul class="nav-ul">
                     <li class="nav-items"><a class="nav-items-a" href="#button-div">Portfolio</a></li>
                     <li class="nav-items"><a class="nav-items-a" href="#about-me">About</a></li>
@@ -109,7 +110,7 @@
                                 <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
                             </ul>
                         </div>
-                        <a href="#" id="show-projects" ><button class="first-see-project-button-desktop">See Project</button></a>
+                        <a href="https://github.com/coderacheal/Portfolio" id="show-projects" ><button class="first-see-project-button-desktop">See Project</button></a>
                     </div>
                     <a href="#"><button class="first-see-project-button">See Project</button></a>
                 </div>
@@ -126,7 +127,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '1' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -170,7 +171,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '2' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -211,7 +212,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '3' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -252,7 +253,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '4' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -295,7 +296,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '5' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -338,7 +339,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '6' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -373,81 +374,13 @@
             </div>
         </section>
 
-       
+        <!-- DYNAMIC MOBILE PROJECT POP-UP -->
+        <div class="project-pop-up" id="modal"></div>
 
+        <!-- DYNAMIC DESKTOP POPUP -->
+        <div class="desktop-project-pop-up"></div> 
 
-
-        <!-- MOBILE PROJECT POP-UP -->
-        <div class="project-pop-up">
-            <div class="project-popup-floating">
-                <div class="pop-up-title-div">
-                    <h2 class="popup title">Multi-Post Stories</h2>
-                    <div class="hamburger-X-popup">
-                        <span class="bar-x-popup"></span>
-                        <span class="bar-x-popup"></span>
-                    </div>
-                </div>
-                <div class="popup-stack-buttons-div">
-                    <ul class="popup-stack-buttons-ul">
-                        <li class="project-1-buttons-li"><a href="#"><button class="popup-stack-buttons">html</button></a></li>
-                        <li class="project-1-buttons-li"><a href="#"><button class="popup-stack-buttons">bootstrap</button></a></li>
-                        <li class="project-1-buttons-li"><a href="#"><button class="popup-stack-buttons">Ruby on rails</button></a></li>
-                    </ul>
-                </div>
-                <img class='pop-up-image' src="images/project-popup.png" alt="project-screenshot">
-                <div class="popup-description-div">
-                    <p class="popup-description">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
-                    </p>
-                </div>
-                <div class="popup-see-project-button-div">
-                    <button class="popup-see-project-button">See Live <img src="images/Icon - Export.png" alt="link-icon"> </button>
-                    <button class="popup-see-project-button">See Source <img src="images/see-source.png" alt="github icon"></button>
-                </div>
-            </div>
-        </div>
-
-        <!-- DESKTOP POPUP -->
-        <div class="desktop-project-pop-up">
-            <div class="desktop-project-popup-floating">
-                <div class="desktop-pop-up-title-div">
-                    <div class="title-alignment-div">
-
-                        <h1>Keeping track of hundreds  of components website</h1>
-                        <img class="desktop-hamburger-X-popup" src="images/Icon.png" alt="close icon">
-
-                        <!-- <div class="desktop-hamburger-X-popup">
-                            <span class="desktop-bar-x-popup"></span>
-                            <span class="desktop-bar-x-popup"></span>
-                        </div> -->
-                    </div>
-                    <div class="desktop-popup-stack-buttons-div">
-                        <ul class="desktop-popup-stack-buttons-ul">
-                            <li class="desktop-project-1-buttons-li"><a href="#"><button class="desktop-popup-stack-buttons">html</button></a></li>
-                            <li class="desktop-project-1-buttons-li"><a href="#"><button class="desktop-popup-stack-buttons">bootstrap</button></a></li>
-                            <li class="desktop-project-1-buttons-li"><a href="#"><button class="desktop-popup-stack-buttons">Ruby on rails</button></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="desktop-image-and-description-div">
-                    <img class='desktop-pop-up-image' src="images/project-popup.png" alt="project-screenshot">
-                    <div>
-                        <div class="desktop-popup-description-div">
-                            <p class="desktop-popup-description">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.
-                            </p>
-                        </div>
-                        <div class="desktop-popup-see-project-button-div">
-                            <button class="desktop-popup-see-project-button">See Live <img src="images/Icon - Export.png" alt="link-icon"> </button>
-                            <button class="desktop-popup-see-project-button">See Source <img src="images/see-source.png" alt="github icon"></button>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-
-
+        <img class="desktop-close-button-of-popup" src="images/Icon.png" alt="close icon">
 
         <section id="about-me" class="about-me">
             <div class="about-me-desktop-div">

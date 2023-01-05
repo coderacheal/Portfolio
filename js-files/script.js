@@ -11,9 +11,8 @@ const desktopProjectPopup = document.querySelector(".desktop-project-pop-up")
 const desktopHamburgerXPopup = document.querySelector(".desktop-hamburger-X-popup")
 
 
-console.log(seeProjectBtns)
-console.log(navLinks)
-// body.style.filter = 'blur(8px)';
+// console.log(seeProjectBtns)
+// console.log(navLinks)
 
 hamburger.addEventListener("click", () => {
   const menuItems = navUl.classList.toggle('active');
@@ -53,14 +52,3 @@ navLinks.forEach(item => item.addEventListener("click", () => {
   hamburger.style.display ='block';
   hamburgerX.style.display = 'none';
 }))
-
-
-hamburgerXPopup.addEventListener("click", () => {
-  projectPopup.style.display = 'none';
-})
-
-desktopHamburgerXPopup.addEventListener("click", () => {
-  desktopProjectPopup.style.display = 'none';
-})
-
-
