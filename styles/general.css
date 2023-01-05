@@ -4,28 +4,38 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin: 0;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  width: 100%;
 }
 
 @media (min-width: 400px) {
   body {
     width: 100%;
+    position: relative;
   }
 }
 
 @media (min-width: 768px) {
   body {
     width: 100%;
+    position: relative;
   }
 }
 
 @media (min-width: 1024px) {
   body {
     width: 100%;
+    position: relative;
   }
 }
 
 @media (min-width: 1440px) {
   body {
     width: 100%;
+    position: relative;
   }
 }

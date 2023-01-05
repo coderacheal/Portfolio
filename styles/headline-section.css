@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  width: 375px;
+  width: 100%;
   top: 0;
   z-index: 4;
 }
@@ -64,16 +64,6 @@ header {
 .hamburger-X .bar-x:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
-
-/* .hamburger:active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-.hamburger:active .bar:nth-child(2) {
-  opacity: 0;
-}
-.hamburger:active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-} */
 
 .nav-ul {
   display: none;
@@ -189,6 +179,7 @@ p {
 
 .headline-section {
   height: 800px;
+  width: 100%;
   background-color: #1c1a19;
   background-image: url(/images/mobile-side-image.png);
   background-repeat: no-repeat;
@@ -199,6 +190,7 @@ p {
 .mobile-headline-intro-div {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .name-div {
@@ -307,6 +299,7 @@ p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 0;
   }
 
   .hamburger {
