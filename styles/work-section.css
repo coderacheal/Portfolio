@@ -1068,7 +1068,6 @@
 
   .desktop-project-pop-up {
     display: flex;
-    visibility: visible;
     flex-direction: column;
     align-content: center;
     width: 85%;

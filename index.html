@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/animations.css">
     <script src="js-files/script.js" defer></script>
-    <script src="js-files/project-popup.js"></script>
+    <script src="js-files/project-popup.js" defer></script>
+    <script src="js-files/form-validation.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -432,12 +433,14 @@
                     <h3 class="brief-note" id="brief-note">I'm always <br> interested in hearing about new projects, so if you'd like to <br> chat please get in touch.</h3>
                     <h3 class="brief-note-desktop">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
                 </div>
-                <form action="https://formspree.io/f/meqdypvw" method="post" class="form-container">
+                <form action="" class="form-container"> https://formspree.io/f/meqdypvw 
                     <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
-                    <input class="input-individuals" type="email" placeholder="Email Address" name="email" required>
+                    <input class="input-individuals" id="email" type="email" placeholder="Email Address" name="email" required>
                     <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
                     <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
+                    <div class="error-message-div"></div>
                 </form>
+                
             </div>
             <p class="line1"></p>
             <div class="footnote-socials">
