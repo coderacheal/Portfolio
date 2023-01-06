@@ -3,8 +3,13 @@ const mobileModalView = document.querySelector('.project-pop-up');
 const theProjectButtons = document.querySelectorAll('.see-project-button');
 const desktopProjectPopupScript = document.querySelector('.desktop-project-pop-up');
 const allDesktopButtons = document.querySelectorAll('.hover-button');
-const allMobileButtons = document.querySelectorAll('.see-project-button');
+const firstButton = document.querySelectorAll('.first-button')
+const firstBtn = Array.from(firstButton);
 const btns = Array.from(allDesktopButtons);
+const developerName = document.getElementById('portfolio-name');
+const main = document.getElementById('main-document');
+const overlay = document.getElementById('overlay');
+const newBtnArray = btns.concat(firstBtn);
 
 
 const displayWorkArray =[
@@ -15,7 +20,7 @@ const displayWorkArray =[
     mobileDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologiesAndTools: ['html', 'bootstrap', 'Ruby on Rails'],
     DesktopDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    featuredImage: 'images/project-popup.png',
+    featuredImage: 'images/printing-resize.jpg',
     liveDemo: 'https://coderacheal.github.io/',
     sourceCode: 'https://github.com/coderacheal/Portfolio',
   },
@@ -73,12 +78,36 @@ const displayWorkArray =[
     featuredImage: 'images/website.jpg',
     liveDemo: 'https://coderacheal.github.io/',
     sourceCode: 'https://github.com/coderacheal/Portfolio',
-}
+},
+{
+    id: '7',
+    nameOfProject: 'Multi-post Stories',
+    desktopNameOfProject: 'Professional Printing Data More',
+    mobileDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologiesAndTools: ['html', 'bootstrap', 'Ruby on Rails'],
+    DesktopDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featuredImage: 'images/project-popup.png',
+    liveDemo: 'https://coderacheal.github.io/',
+    sourceCode: 'https://github.com/coderacheal/Portfolio',
+  },
+{
+    id: '8',
+    nameOfProject: 'Multi-post Stories',
+    desktopNameOfProject: 'Professional Printing Data More',
+    mobileDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologiesAndTools: ['html', 'bootstrap', 'Ruby on Rails'],
+    DesktopDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    featuredImage: 'images/project-popup.png',
+    liveDemo: 'https://coderacheal.github.io/',
+    sourceCode: 'https://github.com/coderacheal/Portfolio',
+  },
 ]
 
 
 function desktop(index) {
+    overlay.classList.add('active')
     desktopProjectPopupScript.style.display = 'flex';
+    developerName.style.color = '#3e3c3c';
         desktopModalView.innerHTML = `
             <div  class="desktop-project-popup-floating">
                 <div class="desktop-pop-up-title-div">
@@ -111,12 +140,13 @@ function desktop(index) {
 
 
 function mobile(index) {
-    // desktopProjectPopupScript.style.display = 'none';
+    overlay.classList.add('active')
+    developerName.style.color = '#3e3c3c';
     mobileModalView.style.display = 'flex';
     mobileModalView.innerHTML = `
     <div class="project-popup-floating">
         <div class="pop-up-title-div">
-            <h2 class="popup title">${displayWorkArray[index].nameOfProject}</h2>
+            <h2 class="popup-title">${displayWorkArray[index].nameOfProject}</h2>
             <div class="hamburger-X-popup">
                 <span class="bar-x-popup"></span>
                 <span class="bar-x-popup"></span>
@@ -130,13 +160,15 @@ function mobile(index) {
             </ul>
         </div>
         <img class='pop-up-image' src=${displayWorkArray[index].featuredImage} alt="project-screenshot">
+        
         <div class="popup-description-div">
             <p class="popup-description" > ${displayWorkArray[index].mobileDescription} </p>
         </div>
         <div class="popup-see-project-button-div">
-            <a href="${displayWorkArray[index].liveDemo}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Live <img src="images/Icon - Export.png" alt="link-icon"></button></a>
-            <a href="${displayWorkArray[index].sourceCode}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Source <img src="images/see-source.png" alt="github icon"></button></a>
+            <a href="${displayWorkArray[index].liveDemo}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Live<img src="images/Icon - Export.png" alt="link-icon"></button></a>
+            <a href="${displayWorkArray[index].sourceCode}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Source<img src="images/see-source.png" alt="github icon"></button></a>
         </div>
+      
     </div>
     `
     desktopProjectPopupScript.style.display = 'none';
@@ -153,19 +185,24 @@ const desktopHamburgerXPopupScript = document.querySelector(".desktop-close-butt
 
 desktopHamburgerXPopupScript.addEventListener("click", () => {
     desktopProjectPopupScript.style.display = 'none';
+    overlay.classList.remove('active')
+    developerName.style.color = 'white';
   
 })
 
 mobileModalView.addEventListener("click", () => {
     mobileModalView.style.display = 'none';
+    overlay.classList.remove('active')
+    developerName.style.color = 'white';
   
 })
 
-for (let i = 0; i < btns.length; i += 1) {
-    btns[i].addEventListener('click', () => {
+for (let i = 0; i < newBtnArray.length; i += 1) {
+    newBtnArray[i].addEventListener('click', () => {
       mobile(i);
+      main.style.backdropFilter = blur();
     });
-    btns[i].addEventListener('click', () => {
+    newBtnArray[i].addEventListener('click', () => {
       desktop(i);
     });
   }
