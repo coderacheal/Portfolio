@@ -19,6 +19,7 @@
     <script src="js-files/script.js" defer></script>
     <script src="js-files/project-popup.js" defer></script>
     <script src="js-files/local-storage.js" defer></script>
+    <script src="js-files/form-validation.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -438,8 +439,15 @@
                     <input class="input-individuals preserve" id="email" type="email" placeholder="Email Address" name="email" required>
                     <label for="message"></label>
                     <textarea class="preserve" name="message" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+
+                <form action="" class="form-container"> https://formspree.io/f/meqdypvw 
+                    <input class="input-individuals" type="text" placeholder="Full name" maxlength="30" name="name" required>
+                    <input class="input-individuals" id="email" type="email" placeholder="Email Address" name="email" required>
+                    <textarea name="enter_text" id="textarea-box" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
                     <button id="get-in-touch-button" type="submit" name="submit_button">Get in touch</button>
+                    <div class="error-message-div"></div>
                 </form>
+                
             </div>
             <p class="line1"></p>
             <div class="footnote-socials">

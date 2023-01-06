@@ -10,7 +10,7 @@ const developerName = document.getElementById('portfolio-name');
 const main = document.getElementById('main-document');
 const overlay = document.getElementById('overlay');
 const newBtnArray = btns.concat(firstBtn);
-
+console.log(newBtnArray)
 
 
 const displayWorkArray =[
