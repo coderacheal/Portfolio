@@ -12,6 +12,7 @@ const overlay = document.getElementById('overlay');
 const newBtnArray = btns.concat(firstBtn);
 
 
+
 const displayWorkArray =[
 {
     id: '1',
@@ -82,7 +83,7 @@ const displayWorkArray =[
 {
     id: '7',
     nameOfProject: 'Multi-post Stories',
-    desktopNameOfProject: 'Professional Printing Data More',
+    desktopNameOfProject: 'Keeping track of hundreds  of components website',
     mobileDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologiesAndTools: ['html', 'bootstrap', 'Ruby on Rails'],
     DesktopDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
@@ -166,7 +167,7 @@ function mobile(index) {
         </div>
         <div class="popup-see-project-button-div">
             <a href="${displayWorkArray[index].liveDemo}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Live<img src="images/Icon - Export.png" alt="link-icon"></button></a>
-            <a href="${displayWorkArray[index].sourceCode}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Source<img src="images/see-source.png" alt="github icon"></button></a>
+            <a href="${displayWorkArray[index].sourceCode}" class="popup-hyperlink-buttons"><button class="popup-see-project-button">See Source <img src="images/see-source.png" alt="github icon"></button></a>
         </div>
       
     </div>
