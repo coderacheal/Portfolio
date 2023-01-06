@@ -2,13 +2,13 @@ const hamburger = document.querySelector('.hamburger');
 const hamburgerX = document.querySelector('.hamburger-X');
 const navUl = document.querySelector('.nav-ul');
 const navLinks = document.querySelectorAll('.nav-items-a');
-const seeProjectBtns = document.querySelectorAll('.see-project-button');
+// const seeProjectBtns = document.querySelectorAll('.see-project-button');
 const portfolioName = document.querySelectorAll('#portfolio-name')[0];
-const body = document.querySelector('main');
-const hamburgerXPopup = document.querySelector('.hamburger-X-popup');
-const projectPopup = document.querySelector('.project-pop-up');
-const desktopProjectPopup = document.querySelector(".desktop-project-pop-up")
-const desktopHamburgerXPopup = document.querySelector(".desktop-hamburger-X-popup")
+// const body = document.querySelector('main');
+// const hamburgerXPopup = document.querySelector('.hamburger-X-popup');
+// const projectPopup = document.querySelector('.project-pop-up');
+// const desktopProjectPopup = document.querySelector(".desktop-project-pop-up")
+// const desktopHamburgerXPopup = document.querySelector(".desktop-hamburger-X-popup")
 
 
 // console.log(seeProjectBtns)
