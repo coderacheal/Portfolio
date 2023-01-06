@@ -8,21 +8,23 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@300&display=swap'); </style>
     <style> @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@300&display=swap'); </style>
     <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/headline-section.css">
     <link rel="stylesheet" href="styles/work-section.css">
     <link rel="stylesheet" href="styles/about-me.css">
     <link rel="stylesheet" href="styles/footnote.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/animations.css">
-    <script src="script.js" defer></script>
-    <script src="form-validate.js" defer></script>
+    <script src="js-files/script.js" defer></script>
+    <script src="js-files/project-popup.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <main>
+    <main id= 'main-document'>
         <header>
             <nav class="mobile-nav">
-                <a href=""><p id="portfolio-name">John Doe</p></a>
+                <a href="#"><p id="portfolio-name">John Doe</p></a>
                 <ul class="nav-ul">
                     <li class="nav-items"><a class="nav-items-a" href="#button-div">Portfolio</a></li>
                     <li class="nav-items"><a class="nav-items-a" href="#about-me">About</a></li>
@@ -84,7 +86,7 @@
         </section>
 
 
-
+        <div  id="overlay"></div>
         <!-- project-work-section -->
         <section class="work">
             <div class="recent-work-div">
@@ -110,9 +112,9 @@
                                 <li><a href="#"><button class="multi-post-button">Ruby</button></a></li>
                             </ul>
                         </div>
-                        <a href="#" id="show-projects" ><button class="first-see-project-button-desktop">See Project</button></a>
+                        <a href="#" id="show-projects" class="first-button" ><button class="first-see-project-button-desktop">See Project</button></a>
                     </div>
-                    <a href="#"><button class="first-see-project-button">See Project</button></a>
+                    <a href="#" class="first-button" ><button class="first-see-project-button">See Project</button></a>
                 </div>
             </div>
             
@@ -127,7 +129,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '1' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -171,7 +173,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '2' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -212,7 +214,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '3' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -253,7 +255,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '4' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -296,7 +298,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '5' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -339,7 +341,7 @@
                     </div>
                     <div class="div-for-image-hovering">
                         <img class="background-image-hover" src="images/prof-printing.png" alt="background-image">
-                        <button class="hover-button">See Project</button>
+                        <button id= '6' class="hover-button">See Project</button>
                     </div>
                     <div class="floating">
                         <div>
@@ -374,38 +376,13 @@
             </div>
         </section>
 
+        <!-- DYNAMIC MOBILE PROJECT POP-UP -->
+        <div class="project-pop-up" id="modal"></div>
 
+        <!-- DYNAMIC DESKTOP POPUP -->
+        <div class="desktop-project-pop-up"></div> 
 
-        <div class="project-pop-up">
-            <div class="project-popip-floating">
-                <div>
-                    <h4>Multi-Post Stories</h4>
-                    <div class="hamburger-X">
-                        <span class="bar-x"></span>
-                        <span class="bar-x"></span>
-                        <span class="bar-x"></span>
-                    </div>
-                </div>
-                <div>
-                    <ul class="project-1-buttons-ul">
-                        <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">html</button></a></li>
-                        <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">bootstrap</button></a></li>
-                        <li class="project-1-buttons-li"><a href="#"><button class="project-1-buttons">Ruby</button></a></li>
-                    </ul>
-                </div>
-                <img src="images/project-popup.png" alt="project-screenshot">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur laborum nihil eum dicta cupiditate harum corporis repellendus doloremque molestiae. Labore, distinctio recusandae asperiores animi ratione laboriosam accusantium? Pariatur, quae, iusto facere cumque veritatis commodi quas dolores laboriosam temporibus explicabo dignissimos beatae deserunt aliquid nam accusantium molestias voluptates culpa sunt ut ducimus atque sint a consectetur quos? Modi corrupti dignissimos doloribus quasi, vitae similique sed delectus assumenda, ipsum voluptatibus placeat!
-                </p>
-                <div>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
+        <img class="desktop-close-button-of-popup" src="images/Icon.png" alt="close icon">
 
         <section id="about-me" class="about-me">
             <div class="about-me-desktop-div">
@@ -473,6 +450,7 @@
             <p class="line2"></p>
         </section>
     </main>
+
+    
 </body>
 </html>
-

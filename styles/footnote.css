@@ -11,7 +11,7 @@
 .brief-note-div {
   align-self: center;
   width: 100%;
-  margin-left: 60px;
+  margin-left: 2%;
 }
 
 .brief-note {
@@ -21,16 +21,11 @@
   text-align: center;
   color: #172b4d;
   margin-left: 0;
-  width: 100%;
-  display: inline-block;
+  width: 80%;
 }
 
 .brief-note-and-form-div {
   width: 100%;
-}
-
-.brief-note-and-form-div {
-  width: 375px;
 }
 
 .brief-note-desktop {
@@ -66,7 +61,7 @@ input {
   margin-top: 90px;
   height: 1px;
   background-color: #dfe1e6;
-  width: 400px;
+  width: 100%;
 }
 
 .line2 {
@@ -99,8 +94,9 @@ button {
 .form-container {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  margin-left: 50px;
+  width: 80%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .input-individuals {
