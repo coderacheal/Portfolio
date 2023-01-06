@@ -19,10 +19,6 @@ function checkUpperCase(event) {
         submitButton.style.marginTop = '70px';
         event.preventDefault()
     }
-
-    
-
-  
   return true;
 }
 
