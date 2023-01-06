@@ -144,6 +144,25 @@ button {
   color: white;
 }
 
+.error-message-div {
+  display: none;
+  position: absolute;
+  background-color: #ff7d31;
+  height: 60px;
+  width: 300px;
+  margin-left: 10px;
+  bottom: 2.9%;
+}
+
+.error-message-div p {
+  font-family: 'Crete Round', monospace;
+  font-weight: 700px;
+  padding: 5px;
+  margin: 0;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
 @media (min-width: 768px) {
   .footnote {
     height: 660px;
@@ -212,6 +231,19 @@ button {
 
   #get-in-touch-button {
     margin-left: 10px;
+  }
+
+  .error-message-div {
+    display: none;
+    position: absolute;
+    background-color: #ff7d31;
+    height: 60px;
+    width: 320px;
+    bottom: 4.8%;
+  }
+
+  .error-message-div p {
+    font-size: 17px;
   }
 }
 
@@ -283,6 +315,15 @@ button {
   #get-in-touch-button {
     margin-left: 10px;
   }
+
+  .error-message-div {
+    display: none;
+    position: absolute;
+    background-color: #ff7d31;
+    height: 60px;
+    width: 420px;
+    bottom: 5.3%;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -347,6 +388,16 @@ button {
   }
 
   #get-in-touch-button {
+    margin-left: 10px;
+  }
+
+  .error-message-div {
+    display: none;
+    position: absolute;
+    background-color: #ff7d31;
+    height: 50px;
+    width: 620px;
+    bottom: 3.9%;
     margin-left: 10px;
   }
 }
