@@ -1096,6 +1096,7 @@
   }
 
   .desktop-project-popup-floating {
+    background-color: #fff;
     display: flex;
     visibility: visible;
     flex-direction: column;
