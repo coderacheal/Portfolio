@@ -1,6 +1,6 @@
 const desktopModalView = document.querySelector('.desktop-project-pop-up');
 const mobileModalView = document.querySelector('.project-pop-up');
-const theProjectButtons = document.querySelectorAll('.see-project-button');
+// const theProjectButtons = document.querySelectorAll('.see-project-button');
 const desktopProjectPopupScript = document.querySelector('.desktop-project-pop-up');
 const allDesktopButtons = document.querySelectorAll('.hover-button');
 const firstButton = document.querySelectorAll('.first-button')
