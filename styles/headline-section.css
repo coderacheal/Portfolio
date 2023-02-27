@@ -140,7 +140,7 @@ header {
   text-decoration: none;
   font-family: Inter, monospace;
   font-weight: bold;
-  line-height: 44px;
+  /* line-height: 44px; */
   color: #fff5e1;
   font-size: 32px;
   padding: 10px;
